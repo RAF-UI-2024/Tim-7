@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3096B37-8D1F-4043-F6DD-E3435B17BBA9" name="Adresa">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-09 13:42:07 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Adresa" id="1ADF129E-72B6-341D-A85A-A6E8EF5E46AE">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-09 14:37:25 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Postanski_broj" id="19FE15C8-715D-55FE-B3FF-B4D4E7BC45C1">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-09 14:37:25 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Ulice" id="7A1F7D36-C35D-1125-EB8A-E3F2472219A6">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-09 14:50:53 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97691266-C1B1-DE91-C5EA-66A21A2DFB78" referredColumn="8624EFD0-081D-8A2F-7428-05A7FBD980AB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF96E1D1-5C6B-1E0A-E249-C46541FCC20A" name="Adresa_PK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-09 14:37:25 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1ADF129E-72B6-341D-A85A-A6E8EF5E46AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD862661-439A-E920-B3E2-B0008D60D715" name="Adresa_Ulica_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-09 14:51:18 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A1F7D36-C35D-1125-EB8A-E3F2472219A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

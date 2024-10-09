@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="70D9B4D5-0D3E-C9B8-2F83-6F4FE04A4BB9" name="Lokacija">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-09 13:42:02 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Lokacije" id="DAD223ED-E85E-0293-6862-5D7D73E06F5A">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-09 14:31:42 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="geografska_sirina" id="2C6731BD-2BFF-F6FB-0EDC-9DD8A8935BD3">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-09 14:36:13 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="geografska_duzina" id="0698DFFA-16F0-260B-C226-FA2ACEB449F3">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-09 14:36:13 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Adresa" id="990B7BB9-3141-3FB7-4F2E-E71C4E1D491E">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-09 14:52:15 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="68301594-DD48-0952-A5F2-24B037D7029A" referredColumn="1ADF129E-72B6-341D-A85A-A6E8EF5E46AE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="108F955B-56E3-98EB-5DF7-7A60F03E4CB5" name="Lokacija_PK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-09 14:32:07 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAD223ED-E85E-0293-6862-5D7D73E06F5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F545A7CC-080C-6FB5-210F-84651BCEC115" name="Lokacija_Adresa_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-09 14:52:30 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="990B7BB9-3141-3FB7-4F2E-E71C4E1D491E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

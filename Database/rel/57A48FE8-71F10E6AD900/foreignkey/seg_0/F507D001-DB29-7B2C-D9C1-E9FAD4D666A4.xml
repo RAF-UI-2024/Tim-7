@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F507D001-DB29-7B2C-D9C1-E9FAD4D666A4" containerWithKeyObject="8914F104-0E5F-9539-B01F-FF73AD7D37B3" localFKIndex="0F65323E-BF11-A0EE-38D2-65B75A3C3900" name="Ulica_Grad_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-09 14:49:22 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<referredTableLongName>Grad</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>898DA6C6-73B7-B494-DA93-4D6E3B022E3D</referredTableID>
+<keyObject>060F8B36-8040-C795-92C6-D18951A5F2DB</keyObject>
+<referredKeyID>060F8B36-8040-C795-92C6-D18951A5F2DB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Grada</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
