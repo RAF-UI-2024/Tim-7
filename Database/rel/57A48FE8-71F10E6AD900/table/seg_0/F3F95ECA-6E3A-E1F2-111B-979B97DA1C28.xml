@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3F95ECA-6E3A-E1F2-111B-979B97DA1C28" name="Korisnik">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-10 17:55:21 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Korisnik" id="3057D655-3404-3587-2858-D7F0F04DF630">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-10 17:57:34 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime" id="96999B87-EAAE-A585-B83C-D5488BF33484">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-10 17:57:34 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prezime" id="1B686515-AD30-EC65-C989-6111DF389E85">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-10 17:57:34 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="075D0EAA-C63B-04BF-8F32-6AE4E54EAA75">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-10 17:57:34 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sifra" id="B389441D-2799-FFF4-0E4C-E05893087A47">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-10 17:57:34 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pol" id="597015CC-C3A1-BA12-15E7-B81C8442A117">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-10 17:57:34 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DC378EEB-E119-F33A-5F1F-EE9162AA52CE" name="Korisnik_PK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-10 17:57:34 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3057D655-3404-3587-2858-D7F0F04DF630"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
