@@ -36,6 +36,18 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C66FB310-C6C2-E612-12BD-78BDCA2CE5BC" name="Gradovi u Drzavi_PK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-11 13:05:36 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB8D08F9-9340-9B49-0CBB-6BEB9639634A"/>
+<colUsage columnID="101910BE-3B45-4E82-C58B-81CFA586F810"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="1713ADD8-949A-7796-2AEF-8E00A4D85E40" name="Gradovi u Drzavi_Drzava_FK">
 <createdBy>bojan</createdBy>
 <createdTime>2024-10-11 12:20:16 UTC</createdTime>

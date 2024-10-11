@@ -4,7 +4,7 @@
 <createdTime>2024-10-10 18:02:17 UTC</createdTime>
 <ownerDesignName>Database</ownerDesignName>
 <referredTableLongName>Lokacija</referredTableLongName>
-<deleteRule>CASCADE</deleteRule>
+<deleteRule>NO ACTION</deleteRule>
 <referredTableID>70D9B4D5-0D3E-C9B8-2F83-6F4FE04A4BB9</referredTableID>
 <keyObject>108F955B-56E3-98EB-5DF7-7A60F03E4CB5</keyObject>
 <referredKeyID>108F955B-56E3-98EB-5DF7-7A60F03E4CB5</referredKeyID>

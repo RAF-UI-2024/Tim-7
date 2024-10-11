@@ -28,18 +28,30 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Id_Grada" id="4FFD1B62-CC2C-2337-C625-6CC9F358F915">
+<Column name="ID_Grada" id="4FFD1B62-CC2C-2337-C625-6CC9F358F915">
 <createdBy>bojan</createdBy>
 <createdTime>2024-10-09 14:49:22 UTC</createdTime>
 <ownerDesignName>Database</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>3 CHAR</dataTypeSize>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="F507D001-DB29-7B2C-D9C1-E9FAD4D666A4" referredColumn="F9DFE390-231A-6599-C180-F363851AA2DD"/>
+<colAssociation fkAssociation="184E876B-B63E-5F0D-F00C-89A883E2881B" referredColumn="101910BE-3B45-4E82-C58B-81CFA586F810"/>
+</associations>
+</Column>
+<Column name="ID_Drzave" id="12081223-5518-113E-648F-429045DE681A">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-11 13:11:49 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="184E876B-B63E-5F0D-F00C-89A883E2881B" referredColumn="AB8D08F9-9340-9B49-0CBB-6BEB9639634A"/>
 </associations>
 </Column>
 </columns>
@@ -55,13 +67,14 @@
 <colUsage columnID="8624EFD0-081D-8A2F-7428-05A7FBD980AB"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0F65323E-BF11-A0EE-38D2-65B75A3C3900" name="Ulica_Grad_FK">
+<ind_PK_UK id="3D62DCD8-BFD0-EFD3-36AA-F2E452B94F7B" name="Ulica_Gradovi u Drzavi_FK">
 <createdBy>bojan</createdBy>
-<createdTime>2024-10-09 14:49:22 UTC</createdTime>
+<createdTime>2024-10-11 13:13:27 UTC</createdTime>
 <ownerDesignName>Database</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
+<colUsage columnID="12081223-5518-113E-648F-429045DE681A"/>
 <colUsage columnID="4FFD1B62-CC2C-2337-C625-6CC9F358F915"/>
 </indexColumnUsage>
 </ind_PK_UK>

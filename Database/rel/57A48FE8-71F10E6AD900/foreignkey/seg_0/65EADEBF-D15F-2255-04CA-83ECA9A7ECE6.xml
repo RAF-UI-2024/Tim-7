@@ -4,7 +4,7 @@
 <createdTime>2024-10-10 18:02:28 UTC</createdTime>
 <ownerDesignName>Database</ownerDesignName>
 <referredTableLongName>Korisnik</referredTableLongName>
-<deleteRule>CASCADE</deleteRule>
+<deleteRule>NO ACTION</deleteRule>
 <referredTableID>F3F95ECA-6E3A-E1F2-111B-979B97DA1C28</referredTableID>
 <keyObject>DC378EEB-E119-F33A-5F1F-EE9162AA52CE</keyObject>
 <referredKeyID>DC378EEB-E119-F33A-5F1F-EE9162AA52CE</referredKeyID>
