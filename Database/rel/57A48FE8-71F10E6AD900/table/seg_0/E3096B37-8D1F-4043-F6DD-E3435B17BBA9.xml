@@ -37,9 +37,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="97691266-C1B1-DE91-C5EA-66A21A2DFB78" referredColumn="8624EFD0-081D-8A2F-7428-05A7FBD980AB"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -52,16 +49,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="1ADF129E-72B6-341D-A85A-A6E8EF5E46AE"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="BD862661-439A-E920-B3E2-B0008D60D715" name="Adresa_Ulica_FK">
-<createdBy>bojan</createdBy>
-<createdTime>2024-10-09 14:51:18 UTC</createdTime>
-<ownerDesignName>Database</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="7A1F7D36-C35D-1125-EB8A-E3F2472219A6"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -34,12 +34,9 @@
 <ownerDesignName>Database</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="5D0C1001-4133-0648-BF25-2EBDFF8F7285" referredColumn="C01FCA90-4479-E3A5-E046-4AFB9C933625"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -52,16 +49,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="F9DFE390-231A-6599-C180-F363851AA2DD"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="4543D78A-58B2-4014-EB7B-77574D374963" name="Grad_Drzava_FK">
-<createdBy>bojan</createdBy>
-<createdTime>2024-10-09 14:48:06 UTC</createdTime>
-<ownerDesignName>Database</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="E6FB415E-23DC-B664-97C8-D63C4A0754AC"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5D0C1001-4133-0648-BF25-2EBDFF8F7285" containerWithKeyObject="898DA6C6-73B7-B494-DA93-4D6E3B022E3D" localFKIndex="4543D78A-58B2-4014-EB7B-77574D374963" name="Grad_Drzava_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1313480A-C12F-1909-6612-CCBD9A914745" containerWithKeyObject="1FE369B8-5AEE-83F5-6A41-5554163D0677" localFKIndex="1713ADD8-949A-7796-2AEF-8E00A4D85E40" name="Gradovi u Drzavi_Drzava_FK">
 <createdBy>bojan</createdBy>
-<createdTime>2024-10-09 14:48:06 UTC</createdTime>
+<createdTime>2024-10-11 12:20:16 UTC</createdTime>
 <ownerDesignName>Database</ownerDesignName>
 <referredTableLongName>Drzava</referredTableLongName>
-<deleteRule>CASCADE</deleteRule>
+<deleteRule>NO ACTION</deleteRule>
 <referredTableID>097FEFEC-685C-3EAF-4C5D-662BE95CB779</referredTableID>
 <keyObject>870A0F06-6C94-DFD1-6E51-A6740D0E9637</keyObject>
 <referredKeyID>870A0F06-6C94-DFD1-6E51-A6740D0E9637</referredKeyID>
