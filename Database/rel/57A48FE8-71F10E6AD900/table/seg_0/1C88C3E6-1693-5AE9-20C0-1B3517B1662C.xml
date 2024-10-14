@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C88C3E6-1693-5AE9-20C0-1B3517B1662C" name="Obrazovanje">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-14 14:02:46 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Obrazovanje" id="93AD1F0C-8E12-80E0-EFC6-2B0E20E0317B">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-14 14:03:50 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="50ADD7BC-6C62-8C02-3BBF-D794836E730B" referredColumn="0EDF44DF-4830-4CC2-DC8C-B52EE6BD16F8"/>
+</associations>
+</Column>
+<Column name="vrsta_obrazovanje" id="6F4D5B9C-1470-9777-4142-919CCE4D8917">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-14 14:03:50 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>55</dataTypeSize>
+<ownDataTypeParameters>55,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="radno_vreme_od" id="DD0361A9-3F28-C74D-48B3-2FAEBEF0D143">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-14 14:06:09 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="radno_vreme_do" id="DFF63CAE-B035-1FFA-4FCB-001A325EA3D9">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-14 14:06:09 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="273EC140-EFE5-81F2-D80E-D180495B5040" name="Obrazovanje_PK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-14 14:03:50 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93AD1F0C-8E12-80E0-EFC6-2B0E20E0317B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="045733F4-8A45-3B72-B0D5-79064487F4EC" name="Obrazovanje_Kategorija_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-14 14:54:06 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93AD1F0C-8E12-80E0-EFC6-2B0E20E0317B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

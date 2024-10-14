@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7A978655-59E6-C04E-2801-02431873C188" name="Religijska_institucija">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-14 14:16:50 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Religijska_institucija" id="DBB3A4C3-8900-D643-012D-E8C61A69FE56">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-14 14:19:33 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C9F2415-4532-57EA-E837-9429B0D77CBC" referredColumn="0EDF44DF-4830-4CC2-DC8C-B52EE6BD16F8"/>
+</associations>
+</Column>
+<Column name="vrsta_vere" id="FB9A744D-1E1E-B23F-A629-1760FEE237F0">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-14 14:19:33 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>55</dataTypeSize>
+<ownDataTypeParameters>55,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip_gradjevine" id="5B8F4537-F3D7-D3FC-B718-7A9E60925F6A">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-14 14:19:33 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>55</dataTypeSize>
+<ownDataTypeParameters>55,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E37D42AD-90DC-33A0-2B11-7CC4B6690233" name="Religijske_institucije_PK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-14 14:19:33 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBB3A4C3-8900-D643-012D-E8C61A69FE56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F56EF4F1-5F93-4B2D-3154-86F72F28C90C" name="Religijska_institucija_Kategorija_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-14 14:54:57 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBB3A4C3-8900-D643-012D-E8C61A69FE56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

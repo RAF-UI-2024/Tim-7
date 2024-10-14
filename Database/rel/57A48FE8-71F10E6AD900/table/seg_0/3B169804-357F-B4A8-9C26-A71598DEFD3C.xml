@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3B169804-357F-B4A8-9C26-A71598DEFD3C" name="Shoping">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-14 13:39:38 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Shoping" id="46041FE2-B1D0-05CA-236E-616429F5F59A">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-14 13:40:05 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67867106-BA97-31DB-EAE1-C122E3E99BF6" referredColumn="0EDF44DF-4830-4CC2-DC8C-B52EE6BD16F8"/>
+</associations>
+</Column>
+<Column name="radno_vreme_od" id="511B1C6E-200C-1154-02BD-124268629877">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-14 13:52:23 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="radno_vreme_do" id="48DFD554-B3AC-F7AB-6679-618C17A0DB21">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-14 13:52:23 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pristupacnost " id="E55294F5-1C09-F581-5050-FE345F2F9617">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-14 13:52:23 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FA533312-1DFF-0CFE-7A6A-856862126BB5" name="Shoping_PK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-14 13:40:05 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46041FE2-B1D0-05CA-236E-616429F5F59A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F7131299-5AF0-FB0D-0323-3C2174C7FE99" name="Shoping_Kategorija_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-14 14:54:29 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46041FE2-B1D0-05CA-236E-616429F5F59A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
