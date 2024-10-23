@@ -1,30 +1,28 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C88C3E6-1693-5AE9-20C0-1B3517B1662C" name="Obrazovanje">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F8E706A6-9E7E-4B11-BC15-36B958F7CE83" name="Drustvena_institucija">
 <createdBy>bojan</createdBy>
-<createdTime>2024-10-14 14:02:46 UTC</createdTime>
+<createdTime>2024-10-23 08:42:33 UTC</createdTime>
 <ownerDesignName>Database</ownerDesignName>
-<ordsAlias>table_15</ordsAlias>
+<ordsAlias>table_23</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_Obrazovanje" id="93AD1F0C-8E12-80E0-EFC6-2B0E20E0317B">
+<Column name="ID_Drustvena_institucija" id="194B6F2E-99AD-303A-4057-9666F91128DF">
 <createdBy>bojan</createdBy>
-<createdTime>2024-10-14 14:03:50 UTC</createdTime>
+<createdTime>2024-10-23 08:52:21 UTC</createdTime>
 <ownerDesignName>Database</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="B8DCD9C0-B466-49EF-BAB8-32258BBB0187" referredColumn="194B6F2E-99AD-303A-4057-9666F91128DF"/>
-</associations>
 </Column>
-<Column name="vrsta_obrazovanje" id="6F4D5B9C-1470-9777-4142-919CCE4D8917">
+<Column name="status_javnosti" id="E2161FB3-0374-34D2-55FB-6A193CB6F7EE">
 <createdBy>bojan</createdBy>
-<createdTime>2024-10-14 14:03:50 UTC</createdTime>
+<createdTime>2024-10-23 08:53:04 UTC</createdTime>
 <ownerDesignName>Database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
@@ -34,25 +32,15 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="273EC140-EFE5-81F2-D80E-D180495B5040" name="Obrazovanje_PK">
+<ind_PK_UK id="0A232E2E-F543-1B80-A8B2-3A60BC6EDA14" name="Drustvena_institucija_PK">
 <createdBy>bojan</createdBy>
-<createdTime>2024-10-14 14:03:50 UTC</createdTime>
+<createdTime>2024-10-23 08:54:24 UTC</createdTime>
 <ownerDesignName>Database</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="93AD1F0C-8E12-80E0-EFC6-2B0E20E0317B"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="CC4A6912-0712-1C41-D403-90A4B30D4274" name="Obrazovanje_Drustvena_institucija_FK">
-<createdBy>bojan</createdBy>
-<createdTime>2024-10-23 08:54:50 UTC</createdTime>
-<ownerDesignName>Database</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="93AD1F0C-8E12-80E0-EFC6-2B0E20E0317B"/>
+<colUsage columnID="194B6F2E-99AD-303A-4057-9666F91128DF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

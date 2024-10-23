@@ -18,38 +18,8 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="67867106-BA97-31DB-EAE1-C122E3E99BF6" referredColumn="0EDF44DF-4830-4CC2-DC8C-B52EE6BD16F8"/>
+<colAssociation fkAssociation="FA73E5A1-0344-48CC-FEAD-25BCD33FD853" referredColumn="35B540EF-ED54-0F4E-5148-75142457AFDB"/>
 </associations>
-</Column>
-<Column name="radno_vreme_od" id="511B1C6E-200C-1154-02BD-124268629877">
-<createdBy>bojan</createdBy>
-<createdTime>2024-10-14 13:52:23 UTC</createdTime>
-<ownerDesignName>Database</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT014</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="radno_vreme_do" id="48DFD554-B3AC-F7AB-6679-618C17A0DB21">
-<createdBy>bojan</createdBy>
-<createdTime>2024-10-14 13:52:23 UTC</createdTime>
-<ownerDesignName>Database</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT014</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="pristupacnost " id="E55294F5-1C09-F581-5050-FE345F2F9617">
-<createdBy>bojan</createdBy>
-<createdTime>2024-10-14 13:52:23 UTC</createdTime>
-<ownerDesignName>Database</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -64,9 +34,9 @@
 <colUsage columnID="46041FE2-B1D0-05CA-236E-616429F5F59A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="F7131299-5AF0-FB0D-0323-3C2174C7FE99" name="Shoping_Kategorija_FK">
+<ind_PK_UK id="2C8982F1-BC9E-758E-A76D-0B3AC7C0D02C" name="Shoping_Komercijalna_usluzna_mesta_FK">
 <createdBy>bojan</createdBy>
-<createdTime>2024-10-14 14:54:29 UTC</createdTime>
+<createdTime>2024-10-23 08:47:28 UTC</createdTime>
 <ownerDesignName>Database</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>

@@ -18,7 +18,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="1C0A0101-0FA0-D824-302E-C6A019107083" referredColumn="0EDF44DF-4830-4CC2-DC8C-B52EE6BD16F8"/>
+<colAssociation fkAssociation="1F722E4B-124D-FB2E-A261-ECF49F47322D" referredColumn="35B540EF-ED54-0F4E-5148-75142457AFDB"/>
 </associations>
 </Column>
 <Column name="broj_zvezdica" id="90C82D0B-09F3-B49F-02C5-2C473E587EC6">
@@ -67,9 +67,9 @@
 <colUsage columnID="6CBA0800-BFFD-CF0F-8E07-8787B8F666BB"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E5F8CACE-6235-48C3-E711-7DAADF304505" name="Smestaj_Kategorija_FK">
+<ind_PK_UK id="770F4523-D4EB-EB0B-A782-4855F1B09C89" name="Smestaj_Komercijalna_usluzna_mesta_FK">
 <createdBy>bojan</createdBy>
-<createdTime>2024-10-14 14:54:21 UTC</createdTime>
+<createdTime>2024-10-23 08:47:17 UTC</createdTime>
 <ownerDesignName>Database</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>

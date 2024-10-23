@@ -18,34 +18,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="naziv_lokacije" id="DEF3AA50-99CB-69F0-D602-04FDB8EA35F9">
-<createdBy>bojan</createdBy>
-<createdTime>2024-10-14 13:11:45 UTC</createdTime>
-<ownerDesignName>Database</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="opis_mesta" id="A178AEF6-75A5-D82C-10D3-BBB7789A882B">
-<createdBy>bojan</createdBy>
-<createdTime>2024-10-14 13:11:45 UTC</createdTime>
-<ownerDesignName>Database</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>500</dataTypeSize>
-<ownDataTypeParameters>500,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="ID_Lokacije" id="7AA3CDB3-C417-C6C0-E930-9849B156289F">
 <createdBy>bojan</createdBy>
 <createdTime>2024-10-14 13:22:54 UTC</createdTime>
 <ownerDesignName>Database</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -55,32 +31,11 @@
 <colAssociation fkAssociation="8BF53814-BAE4-C3FB-236A-49E407DD998E" referredColumn="DAD223ED-E85E-0293-6862-5D7D73E06F5A"/>
 </associations>
 </Column>
-<Column name="radno_vreme_od" id="E6FC8C3C-D692-73A1-0942-E8012D732D8E">
-<createdBy>bojan</createdBy>
-<createdTime>2024-10-14 14:57:03 UTC</createdTime>
-<ownerDesignName>Database</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT014</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="radno_vreme_do" id="1D902527-CEB2-ACF9-5CD0-7F580EB6524F">
-<createdBy>bojan</createdBy>
-<createdTime>2024-10-14 14:57:03 UTC</createdTime>
-<ownerDesignName>Database</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT014</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="recenzija" id="FC320FF9-9EE8-3022-C963-CA6FE1BDF202">
 <createdBy>bojan</createdBy>
 <createdTime>2024-10-14 14:57:03 UTC</createdTime>
 <ownerDesignName>Database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>

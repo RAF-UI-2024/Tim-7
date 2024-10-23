@@ -18,7 +18,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="4C5133C1-591F-5270-B12B-903BA3D716D3" referredColumn="0EDF44DF-4830-4CC2-DC8C-B52EE6BD16F8"/>
+<colAssociation fkAssociation="8D345A02-3892-BFF8-46A3-3F010A80FF55" referredColumn="194B6F2E-99AD-303A-4057-9666F91128DF"/>
 </associations>
 </Column>
 <Column name="vrsta_institucije" id="7117C8E5-8831-0A6C-A26E-ADF1511316D7">
@@ -57,9 +57,9 @@
 <colUsage columnID="96795E86-3D12-EA39-6722-BF807F7B76CC"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="33FDAA70-680A-F0B9-112D-A46D265ECFC9" name="Drzavna_institucija_Kategorija_FK">
+<ind_PK_UK id="713E48CF-68D5-B2EC-9FBB-CEFA1559E6ED" name="Drzavna_institucija_Drustvena_institucija_FK">
 <createdBy>bojan</createdBy>
-<createdTime>2024-10-14 14:47:06 UTC</createdTime>
+<createdTime>2024-10-23 08:54:37 UTC</createdTime>
 <ownerDesignName>Database</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>

@@ -17,9 +17,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="1942B9BD-8C8C-693E-BC34-5638AF6043E1" referredColumn="0EDF44DF-4830-4CC2-DC8C-B52EE6BD16F8"/>
-</associations>
 </Column>
 <Column name="vrsta_objekta" id="96BE9595-CBCE-8622-4C6A-FCAA6F9D5CD5">
 <createdBy>bojan</createdBy>
@@ -63,16 +60,6 @@
 <ownerDesignName>Database</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="CC2DFED3-6462-ED8A-1D6E-FD8B35D2D07C"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="A5AF6F07-9293-9AE7-5B7E-53F6C34BA1AD" name=" Sport_rekreacija_Kategorija_FK">
-<createdBy>bojan</createdBy>
-<createdTime>2024-10-14 14:54:37 UTC</createdTime>
-<ownerDesignName>Database</ownerDesignName>
-<indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="CC2DFED3-6462-ED8A-1D6E-FD8B35D2D07C"/>

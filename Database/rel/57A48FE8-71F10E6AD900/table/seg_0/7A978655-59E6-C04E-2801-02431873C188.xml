@@ -18,7 +18,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="2C9F2415-4532-57EA-E837-9429B0D77CBC" referredColumn="0EDF44DF-4830-4CC2-DC8C-B52EE6BD16F8"/>
+<colAssociation fkAssociation="8150FDDD-B542-B1F3-4CF4-6C4CB3EE49F9" referredColumn="194B6F2E-99AD-303A-4057-9666F91128DF"/>
 </associations>
 </Column>
 <Column name="vrsta_vere" id="FB9A744D-1E1E-B23F-A629-1760FEE237F0">
@@ -57,9 +57,9 @@
 <colUsage columnID="DBB3A4C3-8900-D643-012D-E8C61A69FE56"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="F56EF4F1-5F93-4B2D-3154-86F72F28C90C" name="Religijska_institucija_Kategorija_FK">
+<ind_PK_UK id="D605F843-42D1-B230-6DD9-89C2BA0227B3" name="Religijska_institucija_Drustvena_institucija_FK">
 <createdBy>bojan</createdBy>
-<createdTime>2024-10-14 14:54:57 UTC</createdTime>
+<createdTime>2024-10-23 08:55:15 UTC</createdTime>
 <ownerDesignName>Database</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>

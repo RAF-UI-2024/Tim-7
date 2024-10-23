@@ -17,9 +17,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="70B1CB3F-1D9C-F798-7E12-BB19D0D986A3" referredColumn="0EDF44DF-4830-4CC2-DC8C-B52EE6BD16F8"/>
-</associations>
 </Column>
 <Column name="vrsta_prevoza" id="FF965E90-A5DA-F788-A862-1F3A4253808E">
 <createdBy>bojan</createdBy>
@@ -40,16 +37,6 @@
 <ownerDesignName>Database</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="FF9BA2BE-A15C-C712-1AA4-7424657F25EC"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="3F4B694C-42A3-4765-502E-09657397E18F" name="Javni_transport_Kategorija_FK">
-<createdBy>bojan</createdBy>
-<createdTime>2024-10-14 14:54:14 UTC</createdTime>
-<ownerDesignName>Database</ownerDesignName>
-<indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="FF9BA2BE-A15C-C712-1AA4-7424657F25EC"/>
