@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="605006DF-BCD5-2D2A-5F81-B456D1D1D110" name="Prirodna_javna_povrsina">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-24 13:35:07 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Prirodna_javna_povrsina" id="7E02FB18-4BEC-395D-F40D-1A27FFCE3DD0">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-24 13:35:51 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="814F061C-4C8F-AC94-CD52-9F6D17C72117" name="Prirodna_javna_povrsina_PK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-24 13:35:51 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E02FB18-4BEC-395D-F40D-1A27FFCE3DD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

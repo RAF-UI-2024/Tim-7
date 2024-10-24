@@ -18,25 +18,18 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="radno_vreme_od" id="3B32BF56-7BED-9F9B-F2B6-6ACEF8078F05">
+<Column name="ID_Radna_mesta" id="122A5FF3-4152-DDD5-96C0-0D3EB1D9A527">
 <createdBy>bojan</createdBy>
-<createdTime>2024-10-23 08:40:13 UTC</createdTime>
+<createdTime>2024-10-24 13:03:56 UTC</createdTime>
 <ownerDesignName>Database</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT014</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="radno_vreme_do" id="59AF370D-DFB5-DEFF-1C4A-688F7C036FDB">
-<createdBy>bojan</createdBy>
-<createdTime>2024-10-23 08:40:13 UTC</createdTime>
-<ownerDesignName>Database</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT014</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40BF719D-A1CD-F7DF-2BFB-370A0F5F6A73" referredColumn="3681673C-B49F-D964-DA5E-92BF68B5B645"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -49,6 +42,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="35B540EF-ED54-0F4E-5148-75142457AFDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40529889-066B-464B-E848-55D79EC3E8F8" name="Komercijalna_usluzna_mesta_Radna_mesta_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-24 13:04:54 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="122A5FF3-4152-DDD5-96C0-0D3EB1D9A527"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

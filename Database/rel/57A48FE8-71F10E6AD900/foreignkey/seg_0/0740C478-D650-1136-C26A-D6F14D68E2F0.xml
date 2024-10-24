@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0740C478-D650-1136-C26A-D6F14D68E2F0" containerWithKeyObject="143B3A99-9AE7-D907-895A-9D61C517A1C4" localFKIndex="7D381B73-0760-3432-2C74-AB34C1F14AB4" name="Prirodna_znamenitost_Prirodna_javna_povrsina_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-24 13:36:32 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<referredTableLongName>Prirodna_javna_povrsina</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>605006DF-BCD5-2D2A-5F81-B456D1D1D110</referredTableID>
+<keyObject>814F061C-4C8F-AC94-CD52-9F6D17C72117</keyObject>
+<referredKeyID>814F061C-4C8F-AC94-CD52-9F6D17C72117</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Prirodna_javna_povrsina</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

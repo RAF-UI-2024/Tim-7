@@ -39,9 +39,9 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<dataTypeScale>1</dataTypeScale>
-<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,1,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="pristupacnost" id="3C5B79C6-E269-6708-BB51-3FEBDBFC80FC">
