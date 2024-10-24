@@ -18,6 +18,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ID_Kategorija" id="261E14AB-0BF3-313F-312C-9F2AF4AC4388">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-24 17:28:10 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B7672A0-7B9D-E9C8-616F-203EEA43FBAF" referredColumn="0EDF44DF-4830-4CC2-DC8C-B52EE6BD16F8"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="814F061C-4C8F-AC94-CD52-9F6D17C72117" name="Prirodna_javna_povrsina_PK">
@@ -29,6 +43,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="7E02FB18-4BEC-395D-F40D-1A27FFCE3DD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5237A1D4-0CD4-AB44-680A-5E470EE3DAD6" name="Prirodna_javna_povrsina_Kategorija_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-24 17:28:44 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="261E14AB-0BF3-313F-312C-9F2AF4AC4388"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

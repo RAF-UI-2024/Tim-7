@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2324826E-6716-5011-897D-7FBB1D834742" containerWithKeyObject="422BCF64-CE7E-0DAC-E855-745FC823F544" localFKIndex="71788CC1-C5E5-E93F-4A85-16524AF74E35" name="Aerodrom_Javni_transport_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-24 17:42:40 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<referredTableLongName>Javni_transport</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8F84BCA8-BD9E-2C72-F20E-0C5E8A9500C6</referredTableID>
+<keyObject>7D9A7EC6-C0F9-16C5-E432-E404CA091AE3</keyObject>
+<referredKeyID>7D9A7EC6-C0F9-16C5-E432-E404CA091AE3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Javni_transport</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -38,6 +38,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ID_Kategorija" id="30BB37DC-4C2E-5FD5-A125-0DD720CFB97B">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-24 17:27:50 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF09E918-9705-1208-DD7D-341FAB4B9113" referredColumn="0EDF44DF-4830-4CC2-DC8C-B52EE6BD16F8"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="D33CF5E3-C408-7FF1-950D-87C546C5F7C0" name="Radna_mesta_PK">
@@ -49,6 +63,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="3681673C-B49F-D964-DA5E-92BF68B5B645"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9B56257-D49E-57BE-C8BB-7F04CDFE2DA2" name="Radna_mesta_Kategorija_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-24 17:28:30 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30BB37DC-4C2E-5FD5-A125-0DD720CFB97B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

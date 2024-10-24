@@ -1,69 +1,67 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8F84BCA8-BD9E-2C72-F20E-0C5E8A9500C6" name="Javni_transport">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="422BCF64-CE7E-0DAC-E855-745FC823F544" name="Aerodrom">
 <createdBy>bojan</createdBy>
-<createdTime>2024-10-14 14:06:50 UTC</createdTime>
+<createdTime>2024-10-24 17:37:44 UTC</createdTime>
 <ownerDesignName>Database</ownerDesignName>
-<ordsAlias>table_16</ordsAlias>
+<ordsAlias>table_28</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_Javni_transport" id="FF9BA2BE-A15C-C712-1AA4-7424657F25EC">
+<Column name="ID_Aerodrom" id="327BABAC-0AE9-352F-F914-E3C564796D06">
 <createdBy>bojan</createdBy>
-<createdTime>2024-10-14 14:15:40 UTC</createdTime>
+<createdTime>2024-10-24 17:38:13 UTC</createdTime>
 <ownerDesignName>Database</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="cenovnik" id="FF965E90-A5DA-F788-A862-1F3A4253808E">
-<createdBy>bojan</createdBy>
-<createdTime>2024-10-14 14:15:40 UTC</createdTime>
-<ownerDesignName>Database</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>500</dataTypeSize>
-<ownDataTypeParameters>500,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="ID_Kategorija" id="94DA830A-F211-4199-5628-FAADAE2A8443">
-<createdBy>bojan</createdBy>
-<createdTime>2024-10-24 17:44:33 UTC</createdTime>
-<ownerDesignName>Database</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="967DA1DC-EF0F-7B99-70C6-A0D50E61F560" referredColumn="0EDF44DF-4830-4CC2-DC8C-B52EE6BD16F8"/>
+<colAssociation fkAssociation="2324826E-6716-5011-897D-7FBB1D834742" referredColumn="FF9BA2BE-A15C-C712-1AA4-7424657F25EC"/>
 </associations>
+</Column>
+<Column name="broj_terminala" id="58BDD156-1F67-CDAC-1566-D719B937E099">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-24 17:39:09 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Medjunarodni" id="FB3F96FD-3454-8BA6-A759-7CC6E2BB0E36">
+<createdBy>bojan</createdBy>
+<createdTime>2024-10-24 17:39:09 UTC</createdTime>
+<ownerDesignName>Database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="7D9A7EC6-C0F9-16C5-E432-E404CA091AE3" name="Javni_transport_PK">
+<ind_PK_UK id="3CFE7C15-E48A-DDDD-1CEA-DE10201781D1" name="Aerodrom_PK">
 <createdBy>bojan</createdBy>
-<createdTime>2024-10-14 14:15:40 UTC</createdTime>
+<createdTime>2024-10-24 17:38:13 UTC</createdTime>
 <ownerDesignName>Database</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="FF9BA2BE-A15C-C712-1AA4-7424657F25EC"/>
+<colUsage columnID="327BABAC-0AE9-352F-F914-E3C564796D06"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CFE7882F-F47C-8B89-FD8E-57602CFC2EF7" name="Javni_transport_Kategorija_FK">
+<ind_PK_UK id="71788CC1-C5E5-E93F-4A85-16524AF74E35" name="Aerodrom_Javni_transport_FK">
 <createdBy>bojan</createdBy>
-<createdTime>2024-10-24 17:44:50 UTC</createdTime>
+<createdTime>2024-10-24 17:42:40 UTC</createdTime>
 <ownerDesignName>Database</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="94DA830A-F211-4199-5628-FAADAE2A8443"/>
+<colUsage columnID="327BABAC-0AE9-352F-F914-E3C564796D06"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
