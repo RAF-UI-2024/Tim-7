@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Projekat" id="135A012C-DFDE-616C-2DCF-3BBCDE325F0F" version="3.5">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 14:18:56 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>135A012C-DFDE-616C-2DCF-3BBCDE325F0F</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="CA7BE52E-E3E8-CB68-842E-AD25D2F1ED2A">
+<designStoragePath>C:\dtbs</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="1FD080F4-20D5-49ED-C5A6-F2AB1EF0BC7C">
+<designStoragePath>C:\dtbs</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="F094742B-58A5-7ADD-E0E8-9ED2E1AFB875">
+<designStoragePath>C:\dtbs</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

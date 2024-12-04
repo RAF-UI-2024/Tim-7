@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1CC1FC4-D144-5973-00A7-301ADA4AE643" name="Servis">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>83284937-0FA6-A5B8-AF84-C84D7957CC98</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Servisa" id="7CB8CC1E-EF84-01CE-2D86-4DE7D8073027">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>3399ACD0-FD73-6365-2655-1C7A8620C040</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="ID_Vozila" id="C9183B66-0F5E-D0E9-44AE-4981712504DD">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>C92BB6A8-9963-A0D8-C8A0-0E01215E57D1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87956B41-9FC8-70C3-6AE1-4C7BAC867123" referredColumn="6426709B-C8D3-3C71-3936-DACDDDAB6B76"/>
+</associations>
+</Column>
+<Column name="ID_Zaposlenog" id="AE620F1A-1DD4-DB05-6489-988D07031A9C">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>9BB55C5D-576C-ABDE-ADB7-2D70FB2402E3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="843BE7FF-5921-8C72-76A4-7936D52314C3" referredColumn="683F704E-BB09-1858-73CC-F8C7F3ECF539"/>
+</associations>
+</Column>
+<Column name="Datum" id="88ADE140-B8EE-8333-8819-7181880D6E59">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>E920F755-02A1-6FEB-07A0-11FEEE96159E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2B739153-64D6-58FF-4897-7FCF7B91C17A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis" id="B2EA85CE-CDC2-0BEC-FD71-FC0F0645F18B">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>1A5ACC99-4AD9-6831-7600-C31CE49029C0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>58E2731F-C548-821B-F748-34CC8F31227E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cena" id="0AAC4A57-72B3-3A22-1549-D8EA8C61534C">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>2C113336-011E-7781-EE29-A3413941AAB5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0CFC3E55-CC76-A040-7CC1-A5AF4C87F7F4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CA301479-E2E8-AE74-8790-B9B81AD0A3FF" name="Servis_PK">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>51D8BD8B-8A71-EBB5-57AE-B303D769E2BE</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CB8CC1E-EF84-01CE-2D86-4DE7D8073027"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4266FF1-8DE8-5D3D-BA54-5E4993BA4AE1" name="Servis_Vozilo_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9183B66-0F5E-D0E9-44AE-4981712504DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E625941-CAA4-8895-C12E-9584A6BC550D" name="Servis_Zaposleni_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE620F1A-1DD4-DB05-6489-988D07031A9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

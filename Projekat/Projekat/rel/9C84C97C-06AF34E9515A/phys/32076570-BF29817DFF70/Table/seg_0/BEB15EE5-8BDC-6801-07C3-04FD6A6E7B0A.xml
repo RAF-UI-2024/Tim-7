@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Dobavljac" directorySegmentName="seg_0" id="BEB15EE5-8BDC-6801-07C3-04FD6A6E7B0A">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Adresa" id="60B66A4F-350B-FF92-150A-BD665CAEE693">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Kontakt" id="62B01D90-E5C7-98FD-336B-C76CD0EF0151">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Naziv" id="9C099F48-2EFC-E491-0C4C-0E64AF870C35">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_Dobavljaca" id="BCFBB49B-3A38-4029-3928-F958979B01CB">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Dobavljac_PK" id="1CCD5C3C-B87C-E3EB-8F7E-6AE1CE395590">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

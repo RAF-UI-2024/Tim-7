@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="56FFAF0B-38B0-9D52-77DF-3A602FD6CF63" name="Nabavka">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>EBE63A03-2AA3-ABDD-2F92-2B5C80367D89</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Nabavke" id="AFEABFD6-EBBF-19BC-BBC3-56FECAA42356">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>22EDFF50-3282-5E26-E019-4AD958A1D4DA</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="ID_Dobavljaca" id="06765300-5703-64D1-6961-1CC7657B6964">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>4BC89AC5-1542-F4DE-8535-448C2B28AB74</importedID>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A94C4A0-F655-022E-B65E-89AB82472CFA" referredColumn="BCFBB49B-3A38-4029-3928-F958979B01CB"/>
+</associations>
+</Column>
+<Column name="Datum" id="B21C2D7C-312C-2A7F-06EC-FD54FFC98AF0">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>71AC8D7E-CF4F-CEC8-8ADE-3B6111B4D0B6</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2B739153-64D6-58FF-4897-7FCF7B91C17A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ukupna_Cena" id="84A3C837-FDC3-7F3E-FE84-D9B1A261729A">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>37051AEB-6D55-2572-5D3B-D5336CB07811</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0CFC3E55-CC76-A040-7CC1-A5AF4C87F7F4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3CFA7BBF-1CE3-DC7C-D9B8-DB8F2175C9F2" name="Nabavka_PK">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>E192A025-C820-84C9-4525-A16EA327A5E9</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFEABFD6-EBBF-19BC-BBC3-56FECAA42356"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6C3AA68-0B74-6432-AE26-7BCA791E85A5" name="Nabavka_Dobavljac_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06765300-5703-64D1-6961-1CC7657B6964"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

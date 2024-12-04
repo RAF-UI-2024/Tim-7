@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="KategorijaVozila" directorySegmentName="seg_0" id="8BB70DFF-73D4-C3B5-7FF8-0B17627C403C">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Naziv" id="45912029-507C-5A28-AD33-37760915DEA0">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_Kategorije" id="63A9D586-E784-75E6-B404-672F6F3A5ECA">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="KategorijaVozila_PK" id="9E4960B3-5B64-4338-18E1-D1796457B1C5">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5005511-7358-27D7-B040-095B959BA755" name="NabavkaVozila">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>ED852411-1982-FC2C-A058-DF04F3F7995B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Nabavke" id="FDBFCDDB-CD16-0B2F-3CC4-61DBEE45BFC3">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>2BCA8023-99E0-864F-E6A8-929D0951DED7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4D190366-B345-5BAA-252B-8E267DCF5A66</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="84FFB892-40EC-6369-26B3-33FB0D5CFEFB" referredColumn="AFEABFD6-EBBF-19BC-BBC3-56FECAA42356"/>
+</associations>
+</Column>
+<Column name="ID_Vozila" id="6B4C806A-E8CF-9284-BD19-BF3C981FC488">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>F04984F2-4992-706A-70D3-16F82B8145F4</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4D190366-B345-5BAA-252B-8E267DCF5A66</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="27ABA65E-0F35-F655-D503-0E5DE5132D27" referredColumn="6426709B-C8D3-3C71-3936-DACDDDAB6B76"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4BB606D7-999A-2277-7BF4-51B03B373896" name="NabavkaVozila_PK">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>45F033B9-83CB-D6E0-28CC-868DE2A48A54</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDBFCDDB-CD16-0B2F-3CC4-61DBEE45BFC3"/>
+<colUsage columnID="6B4C806A-E8CF-9284-BD19-BF3C981FC488"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29D8CB00-792F-8A35-2858-A54D01716547" name="NabavkaVozila_Nabavka_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDBFCDDB-CD16-0B2F-3CC4-61DBEE45BFC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="242B9BC1-ECC7-FD6E-6C9E-1CB51C73E0F0" name="NabavkaVozila_Vozilo_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B4C806A-E8CF-9284-BD19-BF3C981FC488"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

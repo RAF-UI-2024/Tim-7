@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F0EBFFB1-400B-48B1-3FB1-70DD70E079C7" name="Fakture">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 17:37:10 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<ordsAlias>table_32</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Fakture" id="48FCACCB-432A-AEA1-1571-EA1003261574">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 17:38:03 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum" id="A8A5FCE1-80BC-05B8-EC14-A26B462BD077">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 17:38:03 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Prodaje" id="B31F2AC2-5C4D-A283-0EFB-32C0CA41AB25">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 17:38:03 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="909CDAC5-3844-7DAB-7385-5C2B39F862CA" referredColumn="32692559-A746-D391-0B75-FCFC401F4CF3"/>
+</associations>
+</Column>
+<Column name="ID_Servisa" id="2DF48A62-8986-0187-FCBF-23F4C549B3D3">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 17:38:03 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="820F4564-0A68-FC2F-3CF0-CF96AC14EE68" referredColumn="7CB8CC1E-EF84-01CE-2D86-4DE7D8073027"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="23D78112-8DDD-C3FF-6CDC-1C4EE4ECCD1C" name="Fakture_PK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 17:38:03 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48FCACCB-432A-AEA1-1571-EA1003261574"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C58E8C42-68D8-357E-6F32-FAF81D988C8C" name="Fakture_Prodaja_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 17:38:17 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B31F2AC2-5C4D-A283-0EFB-32C0CA41AB25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A591FAF8-FA56-D692-CB1B-CD5E949FF2F7" name="Fakture_Servis_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 17:38:17 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DF48A62-8986-0187-FCBF-23F4C549B3D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,174 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="84F3FD8F-476A-C5C1-2FF7-E61B12291732" name="Logovi">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>6A0B2D97-CC52-8852-44D8-92712EED1895</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Loga" id="88F5F968-E452-E51B-31D4-600856B0A75C">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>91EC7D40-B1BD-F4FA-CDA9-C798BF174545</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="TipAktivnosti" id="BE2ECEE5-8893-B8B5-570E-EEAF2EE7A3E2">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>86B3432B-9654-6D3B-54D4-6D3CF783C1FE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>55</dataTypeSize>
+<ownDataTypeParameters>55,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis" id="E24321FB-5C15-E4FF-0F9B-11D8CCFD0E86">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>C1DAA70E-ABA0-CBB7-460A-D5D48F433ADE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum" id="940F4AF5-4C09-8B12-CE76-C51EDAFED7B2">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>3D8B4AEF-AE28-2426-D976-ACC869D27724</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Prodaje" id="7C163EBF-7D8E-92D1-AD0F-F59E604A703B">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 17:26:19 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="001158AF-A5CC-0BA6-8313-9616C9FEA795" referredColumn="32692559-A746-D391-0B75-FCFC401F4CF3"/>
+</associations>
+</Column>
+<Column name="ID_Rezervacije" id="40702B3A-BB5F-D760-86A4-F369B69BE65C">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 17:27:02 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1886601D-913A-3514-B6A6-05DCC3B01995" referredColumn="C99A4B6C-52A1-F81A-418A-32FCB570BA19"/>
+</associations>
+</Column>
+<Column name="ID_Servisa" id="6CA14F44-8758-8D53-99D6-6D25D9C67421">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 17:27:02 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD0EA968-4B32-5DD4-156A-9505C82844EF" referredColumn="7CB8CC1E-EF84-01CE-2D86-4DE7D8073027"/>
+</associations>
+</Column>
+<Column name="ID_Aktivnosti" id="438536C7-FE85-221B-B7D8-DF5F99B826FA">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 17:32:49 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76C44B18-C842-BCC7-800F-9C0E18B25616" referredColumn="2E126065-E689-DEBD-A344-456102FE67AD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8D97F4F0-EB60-2287-6479-5DFBAA27E03F" name="Logovi_PK">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>F4F811DB-BFBF-3CF9-E172-3659F8D81397</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88F5F968-E452-E51B-31D4-600856B0A75C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AE69010-D4DF-473A-DEE0-94719BE9E8CF" name="Logovi_Prodaja_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 17:27:10 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C163EBF-7D8E-92D1-AD0F-F59E604A703B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C165F21-7692-51E6-E486-3F4BAE817C71" name="Logovi_Rezervacija_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 17:27:18 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40702B3A-BB5F-D760-86A4-F369B69BE65C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82921AD3-4400-F8CA-6D4F-6DFB8C3CDA00" name="Logovi_Servis_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 17:27:24 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CA14F44-8758-8D53-99D6-6D25D9C67421"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD6DE65B-E4E5-4C2F-D186-F7B26EBD2AD9" name="Logovi_Aktivnosti_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 17:32:49 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="438536C7-FE85-221B-B7D8-DF5F99B826FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

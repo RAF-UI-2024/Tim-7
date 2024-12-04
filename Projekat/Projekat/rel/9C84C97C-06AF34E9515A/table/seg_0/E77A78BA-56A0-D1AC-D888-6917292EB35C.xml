@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E77A78BA-56A0-D1AC-D888-6917292EB35C" name="VoziloKategorija">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>184BDDC8-9E68-A972-DF27-4C4D49728E89</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Vozila" id="111B6B80-8F95-5C08-D4CD-13DAAF234250">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>4D8129F6-EBBB-F391-F4DC-D4C7798679BF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4D190366-B345-5BAA-252B-8E267DCF5A66</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D0A7031A-075B-AD8D-2BC5-6540332002AE" referredColumn="6426709B-C8D3-3C71-3936-DACDDDAB6B76"/>
+</associations>
+</Column>
+<Column name="ID_Kategorije" id="4FEDBF0A-936A-0157-7A7E-7AD0CE86CECC">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>4F0784D3-6071-B8E1-EDDE-038CC7AAC5E1</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4D190366-B345-5BAA-252B-8E267DCF5A66</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3D753EC-9253-4E30-80DD-555AF7782358" referredColumn="63A9D586-E784-75E6-B404-672F6F3A5ECA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CB4EAC72-61A9-C9CE-A5E8-D3F2BB58106D" name="VoziloKategorija_PK">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>96A23849-14BD-5A8A-61A5-6FE884F0A3AB</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="111B6B80-8F95-5C08-D4CD-13DAAF234250"/>
+<colUsage columnID="4FEDBF0A-936A-0157-7A7E-7AD0CE86CECC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="56DC9CE8-D7BD-3D8D-06C2-1A1449AA56AC" name="VoziloKategorija_KategorijaVozila_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FEDBF0A-936A-0157-7A7E-7AD0CE86CECC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6FE167FD-C64C-7F75-B2A9-AFFFF4C98761" name="VoziloKategorija_Vozilo_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="111B6B80-8F95-5C08-D4CD-13DAAF234250"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

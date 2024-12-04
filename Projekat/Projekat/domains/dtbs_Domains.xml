@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="dtbs_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_5_2_0" id="0C254B12-8750-08FB-CB82-29185848E866">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:26 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>dtbs_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_10_2_0" id="0CFC3E55-CC76-A040-7CC1-A5AF4C87F7F4">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:47:32 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>dtbs_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_3_2_0" id="1F12E223-5CB5-0C62-1387-95F28DB53BF3">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:26 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>dtbs_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_4_0_0" id="27E14BC5-22E4-D17D-AB54-3AF5313BC935">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:47:32 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>dtbs_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="2B739153-64D6-58FF-4897-7FCF7B91C17A">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:47:32 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>dtbs_Domains</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_0_0_0" id="4D190366-B345-5BAA-252B-8E267DCF5A66">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:47:32 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>dtbs_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_500" id="58E2731F-C548-821B-F748-34CC8F31227E">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:47:32 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>500</dataTypeSize>
+<fileName>dtbs_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_20" id="61156AD1-4EF6-3658-0EEC-DF375D0C7D7F">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:47:32 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>20</dataTypeSize>
+<fileName>dtbs_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_50" id="AF75C9B5-6316-B5E4-00C8-92722880CE66">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:47:32 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>50</dataTypeSize>
+<fileName>dtbs_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_100" id="C8255381-22AD-080B-67E3-4610BD5DCB5C">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:47:32 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>100</dataTypeSize>
+<fileName>dtbs_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_200" id="CC114766-6210-C613-7D68-00A9B1D38440">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:47:32 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>200</dataTypeSize>
+<fileName>dtbs_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

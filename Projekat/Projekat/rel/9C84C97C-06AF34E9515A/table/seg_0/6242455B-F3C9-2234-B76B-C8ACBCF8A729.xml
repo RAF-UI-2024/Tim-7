@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6242455B-F3C9-2234-B76B-C8ACBCF8A729" name="PoreskeStope">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>CF6EC545-A464-EB35-6463-2EA6F8473025</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Stope" id="FAF406EB-0070-CE33-F393-044C1E4B2BCF">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>5CBF61A2-A222-D166-92C3-33C756990AA4</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="TipTransakcije" id="F20DAE38-79E2-1CF0-8842-520126CBB3AE">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>81A68707-986C-023A-A954-C75BC6D44D96</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>55</dataTypeSize>
+<ownDataTypeParameters>55,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProcenaPoreza" id="D26D8868-4274-735B-30F4-4B735B626724">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>3914156F-D4A9-62C5-F402-15AF3203170D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>100</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="ID_Prodaje" id="E4383904-9507-66E7-A28A-28E47F7B7010">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 17:28:53 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Servisa" id="D43EB8D8-0C5C-4D22-052F-728106D14096">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 17:28:53 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="768847FA-9727-53E2-EC38-3E3032AFC54D" referredColumn="7CB8CC1E-EF84-01CE-2D86-4DE7D8073027"/>
+<colAssociation fkAssociation="29599386-E63E-9EC9-BF00-E6DA4A3D2E21" referredColumn="32692559-A746-D391-0B75-FCFC401F4CF3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C1006DBD-AC51-6C0B-325A-CD6BCD1BA299" name="PoreskeStope_PK">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>AA6E0ADC-343F-9C9B-C066-67530D38A797</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAF406EB-0070-CE33-F393-044C1E4B2BCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F722AF13-DAEA-C358-9A89-C92B3121EB88" name="PoreskeStope_Prodaja_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 17:28:53 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D43EB8D8-0C5C-4D22-052F-728106D14096"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7BE6594D-B448-92D0-DD29-C4A9A8C71485" name="PoreskeStope_Servis_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 17:29:00 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D43EB8D8-0C5C-4D22-052F-728106D14096"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

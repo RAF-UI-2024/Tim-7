@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A529BF6C-6EDE-E606-AE5D-3045BD955995" name="Promocija">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>9D9F9853-8DB4-3A8A-2B48-B05A80039E96</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Kampanje" id="D585B770-87EB-16AD-12DB-EF2CEDBD5E4F">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>32FA3A7F-FC3F-C80C-6EEC-F54A91E224B6</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4D190366-B345-5BAA-252B-8E267DCF5A66</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87C51157-3B66-2B56-6D24-8853AFFD65EC" referredColumn="FD5662A2-CBF5-0A8E-09AF-5E58AFFE8783"/>
+</associations>
+</Column>
+<Column name="ID_Vozila" id="53BF6CFF-D624-CBA5-87CF-4F2635DC5B33">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>0EFFFD54-DDFB-C5D9-F854-AF4FE974979A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4D190366-B345-5BAA-252B-8E267DCF5A66</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A79C3D5-CB12-C922-EE66-885335D8A202" referredColumn="6426709B-C8D3-3C71-3936-DACDDDAB6B76"/>
+</associations>
+</Column>
+<Column name="ProcenatPopusta" id="1A295D7A-F600-1F79-D5CA-0CA9C0CE6D80">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>9DDDAD39-6647-0946-1028-93E2A041DE84</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1F12E223-5CB5-0C62-1387-95F28DB53BF3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>100</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D92BC195-684E-D347-C579-ED339EA7A461" name="Promocija_PK">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>A25E704E-8970-0F7B-969E-1BA5DC215C35</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D585B770-87EB-16AD-12DB-EF2CEDBD5E4F"/>
+<colUsage columnID="53BF6CFF-D624-CBA5-87CF-4F2635DC5B33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19824938-0FA6-2EDB-FCDF-F6ACA8E9BE98" name="Promocija_MarketingKampanja_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D585B770-87EB-16AD-12DB-EF2CEDBD5E4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8C54C31-1818-D612-C29B-27AE59D5636F" name="Promocija_Vozilo_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53BF6CFF-D624-CBA5-87CF-4F2635DC5B33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

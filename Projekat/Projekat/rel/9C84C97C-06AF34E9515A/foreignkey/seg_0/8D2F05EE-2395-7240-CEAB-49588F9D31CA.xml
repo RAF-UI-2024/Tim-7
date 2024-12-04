@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8D2F05EE-2395-7240-CEAB-49588F9D31CA" containerWithKeyObject="7492CEBC-24A9-5BDE-253C-A7E9BDF0B055" localFKIndex="3AAEA483-0EA6-0E9C-6E92-DC2ED9A7FB35" name="Placanje_Prodaja_FK">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>6708C9D2-D28C-7F40-9DCD-978AD55B34C9</importedID>
+<referredTableLongName>Prodaja</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>509063ED-5592-DA0D-38EF-68064147BA0B</referredTableID>
+<keyObject>953B02EF-14C0-89EA-04B9-DCF6048C411A</keyObject>
+<referredKeyID>953B02EF-14C0-89EA-04B9-DCF6048C411A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Prodaje</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

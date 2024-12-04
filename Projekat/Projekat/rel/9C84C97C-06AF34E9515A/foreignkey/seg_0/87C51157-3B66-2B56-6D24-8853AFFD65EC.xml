@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="87C51157-3B66-2B56-6D24-8853AFFD65EC" containerWithKeyObject="A529BF6C-6EDE-E606-AE5D-3045BD955995" localFKIndex="19824938-0FA6-2EDB-FCDF-F6ACA8E9BE98" name="Promocija_MarketingKampanja_FK">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>F4D22CFF-4A78-8364-308B-DE6026212E14</importedID>
+<referredTableLongName>MarketingKampanja</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>207AFD26-5B24-A152-A676-1F5A50F318C2</referredTableID>
+<keyObject>A32E9169-957B-CE93-8248-6B9691FA6DC9</keyObject>
+<referredKeyID>A32E9169-957B-CE93-8248-6B9691FA6DC9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Kampanje</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F94F8418-6CCF-371E-4A4C-B0522260DCB3" containerWithKeyObject="0ADCAF5C-4B07-AB9E-A80D-F3CAB0BAAB7C" localFKIndex="07FB57E2-1183-97E5-F393-C6B37631FF68" name="ServisDelovi_RezervniDelovi_FK">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>2352C4E1-430B-A511-9C12-69427526B0D6</importedID>
+<referredTableLongName>RezervniDelovi</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F6CF0041-1F1F-2A19-E3B7-1D65D63487D1</referredTableID>
+<keyObject>B661D5B5-5AB6-634B-6726-E55A1F6AF4C1</keyObject>
+<referredKeyID>B661D5B5-5AB6-634B-6726-E55A1F6AF4C1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Dela</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

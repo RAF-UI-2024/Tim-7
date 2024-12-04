@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4886DBE4-0B6C-EFE2-CBB1-212970797D42" name="ZakazivanjeDelova">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>DBD3E1FD-3C8C-3F48-1F9E-ED6C7E48DC18</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Termina" id="2AF5D3DC-AF98-8A85-F87B-C2DFBC200F06">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>739FC377-8ADC-4C2C-EE28-6B0A2424E8E7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4D190366-B345-5BAA-252B-8E267DCF5A66</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42A6D90B-53CF-391D-48CE-071041565E8C" referredColumn="58B75315-CF92-7E9D-066A-B06DBEAAF2FC"/>
+</associations>
+</Column>
+<Column name="ID_Dela" id="2A60F3B8-BFD6-1571-EAC3-E987E8E6A8F0">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>FAA22B13-6E53-98B1-8859-06742D073FD5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4D190366-B345-5BAA-252B-8E267DCF5A66</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A6E1558-96C0-400E-3E56-6E352A5ADD13" referredColumn="5C791135-2E84-88E2-01C2-6D1BF561BD8C"/>
+</associations>
+</Column>
+<Column name="Kolicina" id="A7D76E02-4FF7-23A0-1484-2B6C6D01365F">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>8A79FD02-96DE-423C-BE73-60B441C745CD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4D190366-B345-5BAA-252B-8E267DCF5A66</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="60AB9708-C2A6-D8B6-85CF-FCD5AE98C4F4" name="ZakazivanjeDelova_PK">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>29A642EB-F40E-9839-0F51-D4EA40C213E9</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AF5D3DC-AF98-8A85-F87B-C2DFBC200F06"/>
+<colUsage columnID="2A60F3B8-BFD6-1571-EAC3-E987E8E6A8F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF315F07-7F22-EC95-0F8E-90C26D31D830" name="ZakazivanjeDelova_RezervniDelovi_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A60F3B8-BFD6-1571-EAC3-E987E8E6A8F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="83A1D7C8-4D16-F4BB-D4C9-A257603C523A" name="ZakazivanjeDelova_ZakazivanjeServisa_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AF5D3DC-AF98-8A85-F87B-C2DFBC200F06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F7128CB4-A937-F5B8-ADA8-6D4E8DA8BD95" name="VoziloOprema">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>8C632A67-51FA-EA91-ED0D-050F5E7D1243</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Vozila" id="F53B3E98-BFD1-26C1-91F7-9EFEC71C6B2B">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>4FCBDBFD-CABE-D31C-B657-3C2CF3C6DBC6</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4D190366-B345-5BAA-252B-8E267DCF5A66</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD0B27D1-24A1-207C-98A5-757FDB81B2F1" referredColumn="6426709B-C8D3-3C71-3936-DACDDDAB6B76"/>
+</associations>
+</Column>
+<Column name="ID_Opreme" id="955E6D14-1453-749C-6B71-DA754FE13A98">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>8FFB1D41-6911-546D-F5F0-7DFA3CD01344</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4D190366-B345-5BAA-252B-8E267DCF5A66</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55AF038A-25C9-C8C4-ABBB-D7ADB2D63C8D" referredColumn="69A27727-ACE0-0814-3683-4FB40332A4C6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="37A002B9-59D8-4D8A-089D-0675D68D5ED3" name="VoziloOprema_PK">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>A3D7C241-FE6C-C973-0C60-8948EFAA1679</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F53B3E98-BFD1-26C1-91F7-9EFEC71C6B2B"/>
+<colUsage columnID="955E6D14-1453-749C-6B71-DA754FE13A98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A6950F1-F94E-09E7-C50F-C369990058CA" name="VoziloOprema_Oprema_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="955E6D14-1453-749C-6B71-DA754FE13A98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B22F5C8-0BF5-D06C-B33B-6027B71162CB" name="VoziloOprema_Vozilo_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F53B3E98-BFD1-26C1-91F7-9EFEC71C6B2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

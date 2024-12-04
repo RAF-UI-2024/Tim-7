@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="42A6D90B-53CF-391D-48CE-071041565E8C" containerWithKeyObject="4886DBE4-0B6C-EFE2-CBB1-212970797D42" localFKIndex="83A1D7C8-4D16-F4BB-D4C9-A257603C523A" name="ZakazivanjeDelova_ZakazivanjeServisa_FK">
+<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<importedID>7F2A746D-A48C-1AAE-9E58-833D62C752F4</importedID>
+<referredTableLongName>ZakazivanjeServisa</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>385685AB-E43A-E88D-B219-590CEC475A26</referredTableID>
+<keyObject>C72F37EF-EC0D-80AF-C094-70E2EC5DA8E2</keyObject>
+<referredKeyID>C72F37EF-EC0D-80AF-C094-70E2EC5DA8E2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Termina</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
