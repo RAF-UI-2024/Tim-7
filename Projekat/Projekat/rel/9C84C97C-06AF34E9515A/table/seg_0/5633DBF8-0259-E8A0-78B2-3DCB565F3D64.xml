@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5633DBF8-0259-E8A0-78B2-3DCB565F3D64" name="Cenovnik">
+<createdBy>djradovic</createdBy>
+<createdTime>2024-12-09 19:42:41 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<ordsAlias>table_42</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Cenovnika" id="B72A219B-6325-8E04-0D67-A34C31355301">
+<createdBy>djradovic</createdBy>
+<createdTime>2024-12-09 19:43:52 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="4379E4F1-B865-7E89-583D-DF4C471CE197">
+<createdBy>djradovic</createdBy>
+<createdTime>2024-12-09 19:43:52 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AktivanOd" id="EAC5F7C8-1031-83D0-1B23-BE2209152139">
+<createdBy>djradovic</createdBy>
+<createdTime>2024-12-09 19:43:52 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AKtivanDo" id="AE62F9DA-6DFB-20A3-91B3-8BE59E47D5C2">
+<createdBy>djradovic</createdBy>
+<createdTime>2024-12-09 19:43:52 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6C859A23-EB1E-56D4-0BCE-D97100349992" name="Cenovnik_PK">
+<createdBy>djradovic</createdBy>
+<createdTime>2024-12-09 19:43:52 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B72A219B-6325-8E04-0D67-A34C31355301"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

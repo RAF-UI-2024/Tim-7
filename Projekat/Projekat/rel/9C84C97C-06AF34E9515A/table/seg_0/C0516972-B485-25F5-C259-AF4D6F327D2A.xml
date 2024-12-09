@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C0516972-B485-25F5-C259-AF4D6F327D2A" name="Gorivo">
+<createdBy>djradovic</createdBy>
+<createdTime>2024-12-09 19:30:54 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<ordsAlias>table_35</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Goriva" id="8F785584-219A-8A08-2627-CD1621642C96">
+<createdBy>djradovic</createdBy>
+<createdTime>2024-12-09 19:31:47 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv_goriva" id="78F6D023-BC15-D0C2-0ECF-9642231F31E4">
+<createdBy>djradovic</createdBy>
+<createdTime>2024-12-09 19:31:47 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F3B4CB78-D381-332E-648D-A315C241975C" name="Gorivo_PK">
+<createdBy>djradovic</createdBy>
+<createdTime>2024-12-09 19:31:47 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F785584-219A-8A08-2627-CD1621642C96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

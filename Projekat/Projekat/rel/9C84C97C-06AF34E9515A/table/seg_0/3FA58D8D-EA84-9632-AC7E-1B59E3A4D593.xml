@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3FA58D8D-EA84-9632-AC7E-1B59E3A4D593" name="Cena">
+<createdBy>djradovic</createdBy>
+<createdTime>2024-12-09 19:40:28 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<ordsAlias>table_41</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Cene" id="E1A3276E-2CF5-0E44-A238-1222920B3EE5">
+<createdBy>djradovic</createdBy>
+<createdTime>2024-12-09 19:41:51 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Vozila" id="BBCDAB23-C68F-02E2-5884-39B53A4A9DD8">
+<createdBy>djradovic</createdBy>
+<createdTime>2024-12-09 19:41:51 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ECE72331-DC2F-8E60-D853-ED1970AD84B2" referredColumn="6426709B-C8D3-3C71-3936-DACDDDAB6B76"/>
+</associations>
+</Column>
+<Column name="iznos" id="035CDBC7-862C-EA19-8035-8F13248EB42E">
+<createdBy>djradovic</createdBy>
+<createdTime>2024-12-09 19:41:51 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valuta" id="963DCEA0-17C2-363B-055D-3B466173B208">
+<createdBy>djradovic</createdBy>
+<createdTime>2024-12-09 19:41:51 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Cenovnika" id="BC99C080-6E73-20AA-1051-9858E533643D">
+<createdBy>djradovic</createdBy>
+<createdTime>2024-12-09 19:44:39 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3A87C47-6A0B-9317-22C5-1B4932923823" referredColumn="B72A219B-6325-8E04-0D67-A34C31355301"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="16D6E178-4FC4-44F2-9446-8A27F74CDD66" name="Cena_PK">
+<createdBy>djradovic</createdBy>
+<createdTime>2024-12-09 19:41:51 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1A3276E-2CF5-0E44-A238-1222920B3EE5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB3DD4C1-DEDC-9494-B104-4BC9D24D485C" name="Cena_Vozilo_FK">
+<createdBy>djradovic</createdBy>
+<createdTime>2024-12-09 19:42:08 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBCDAB23-C68F-02E2-5884-39B53A4A9DD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A9E1750-A9C9-0FDD-B522-D08D8E05843A" name="Cena_Cenovnik_FK">
+<createdBy>djradovic</createdBy>
+<createdTime>2024-12-09 19:44:39 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC99C080-6E73-20AA-1051-9858E533643D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

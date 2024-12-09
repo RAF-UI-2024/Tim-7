@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0FF72065-D6A0-32B3-F7E9-AD38E1FDE073" name="Drzava">
+<createdBy>djradovic</createdBy>
+<createdTime>2024-12-09 19:28:54 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<ordsAlias>table_34</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Drzave" id="147813CE-170D-B930-F9A2-4C59CB89D565">
+<createdBy>djradovic</createdBy>
+<createdTime>2024-12-09 19:29:41 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv_drzave" id="DD2F5CE5-9CFE-95F4-E432-6A2FFF570EC3">
+<createdBy>djradovic</createdBy>
+<createdTime>2024-12-09 19:29:41 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0AAAE8E1-8D3D-532E-51B2-6BB914E16D2F" name="Drzava_PK">
+<createdBy>djradovic</createdBy>
+<createdTime>2024-12-09 19:29:41 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="147813CE-170D-B930-F9A2-4C59CB89D565"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

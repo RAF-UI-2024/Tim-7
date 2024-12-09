@@ -37,45 +37,6 @@
 <ownDataTypeParameters>55,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Marka" id="EFCA24C6-8A34-D67E-003C-AD4FDEC17D1D">
-<sourceDDLFile>dtbs.sql</sourceDDLFile>
-<createdBy>bojan</createdBy>
-<createdTime>2024-12-02 15:56:43 UTC</createdTime>
-<ownerDesignName>Projekat</ownerDesignName>
-<importedID>BD55E441-D9DC-9104-1708-80342F057EB7</importedID>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>55</dataTypeSize>
-<ownDataTypeParameters>55,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Model" id="E9025CF9-04E0-8D3A-CC23-C0CFAC88703E">
-<sourceDDLFile>dtbs.sql</sourceDDLFile>
-<createdBy>bojan</createdBy>
-<createdTime>2024-12-02 15:56:43 UTC</createdTime>
-<ownerDesignName>Projekat</ownerDesignName>
-<importedID>EE813A4D-2B21-0C1B-5BBE-447AC44366BF</importedID>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>55</dataTypeSize>
-<ownDataTypeParameters>55,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Godina_Proizvodnje" id="265E6D3C-CC44-C146-FF99-7CA2AC3A74A6">
-<sourceDDLFile>dtbs.sql</sourceDDLFile>
-<createdBy>bojan</createdBy>
-<createdTime>2024-12-02 15:56:43 UTC</createdTime>
-<ownerDesignName>Projekat</ownerDesignName>
-<importedID>1B000278-8503-463F-E6B8-A6AC8B6215A1</importedID>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,4,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="Kilometraza" id="90D4D194-3219-1B10-2DE5-4AEC28BBAD40">
 <sourceDDLFile>dtbs.sql</sourceDDLFile>
 <createdBy>bojan</createdBy>
@@ -89,7 +50,7 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Gorivo" id="4774F157-C5DB-09AA-2186-15B3E3512F61">
+<Column name="ID_Goriva" id="4774F157-C5DB-09AA-2186-15B3E3512F61">
 <sourceDDLFile>dtbs.sql</sourceDDLFile>
 <createdBy>bojan</createdBy>
 <createdTime>2024-12-02 15:56:43 UTC</createdTime>
@@ -97,10 +58,12 @@
 <importedID>D329F33B-1C89-1B79-9CD7-0E8367BCE5CC</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>55</dataTypeSize>
-<ownDataTypeParameters>55,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="145606A1-B6B5-B25B-9F69-1550F481F936" referredColumn="8F785584-219A-8A08-2627-CD1621642C96"/>
+</associations>
 </Column>
 <Column name="Snaga" id="2A137C3F-8F8D-E5C9-A808-13864D8539CB">
 <sourceDDLFile>dtbs.sql</sourceDDLFile>
@@ -113,20 +76,6 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
 <ownDataTypeParameters>,4,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Cena" id="81847C60-B421-AAE0-3F38-8ADA77F2129C">
-<sourceDDLFile>dtbs.sql</sourceDDLFile>
-<createdBy>bojan</createdBy>
-<createdTime>2024-12-02 15:56:43 UTC</createdTime>
-<ownerDesignName>Projekat</ownerDesignName>
-<importedID>935915F6-95BF-9E19-4D2A-F8FEBA9B51B2</importedID>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT026</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,10,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Status" id="D1CC6537-7BA6-E068-3749-A64A1F635564">
@@ -146,6 +95,19 @@
 </listOfValues>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Proizvodjaca" id="C737121F-9FB3-C485-E990-7DF708E82D27">
+<createdBy>djradovic</createdBy>
+<createdTime>2024-12-09 19:22:46 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="533FE6AB-AA71-9A5E-B78F-A0E941D61BD9" referredColumn="A8A230FF-E5DE-1DB4-9CF0-D77F2EF44C39"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -172,6 +134,26 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="12E37435-E5ED-8E65-CC9D-B630B1B570A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18F2123D-B0BF-A3AA-6B05-35EB051A1A3B" name="Vozilo_Proizvodjac_FK">
+<createdBy>djradovic</createdBy>
+<createdTime>2024-12-09 19:23:14 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C737121F-9FB3-C485-E990-7DF708E82D27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5BADE0B-24C9-5B3B-D63D-46F36ED538FC" name="Vozilo_Gorivo_FK">
+<createdBy>djradovic</createdBy>
+<createdTime>2024-12-09 19:32:23 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4774F157-C5DB-09AA-2186-15B3E3512F61"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

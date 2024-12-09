@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B0EF5814-570A-C5CD-8906-3A64DC550DFF" name="Model">
+<createdBy>djradovic</createdBy>
+<createdTime>2024-12-09 19:23:36 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<ordsAlias>table_32</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Modela" id="6A693727-51FD-EA50-0D82-5D9FA9111355">
+<createdBy>djradovic</createdBy>
+<createdTime>2024-12-09 19:25:08 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="godina_proizvodnje" id="3893EECA-CE16-CA1F-9AA4-8B953ECD3A3B">
+<createdBy>djradovic</createdBy>
+<createdTime>2024-12-09 19:25:08 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Proizvodjaca" id="ECA99615-6219-54FA-1BBA-51E052720182">
+<createdBy>djradovic</createdBy>
+<createdTime>2024-12-09 19:25:08 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7CCCCA4-17B4-03D1-D9D1-BECD78445CEB" referredColumn="A8A230FF-E5DE-1DB4-9CF0-D77F2EF44C39"/>
+</associations>
+</Column>
+<Column name="naziv_modela" id="1514A7EA-6945-1F89-06F5-DFFBEC1CE780">
+<createdBy>djradovic</createdBy>
+<createdTime>2024-12-09 19:28:47 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="78680B52-1477-AA3B-7907-C2E7F3E07435" name="Model_PK">
+<createdBy>djradovic</createdBy>
+<createdTime>2024-12-09 19:25:08 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A693727-51FD-EA50-0D82-5D9FA9111355"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="046D9DE4-BAF7-4201-B74E-6B980372C20D" name="TABLE_32_Proizvodjac_FK">
+<createdBy>djradovic</createdBy>
+<createdTime>2024-12-09 19:25:08 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECA99615-6219-54FA-1BBA-51E052720182"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
