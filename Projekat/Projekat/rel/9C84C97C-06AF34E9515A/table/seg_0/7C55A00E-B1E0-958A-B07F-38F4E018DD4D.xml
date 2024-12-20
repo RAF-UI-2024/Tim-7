@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C55A00E-B1E0-958A-B07F-38F4E018DD4D" name="Cenovnik_Dobavljaca">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-19 15:48:42 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<ordsAlias>table_44</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Cenovnik_Dobavljaca" id="924BE1F1-408C-0BEB-D101-401403F8BCAF">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-19 15:48:58 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cena" id="66F0E0D0-BF6D-5B07-7705-0AF8A2F5027A">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-19 15:50:08 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ProizvodiDobavljaca" id="A9F151D2-934B-FA38-E488-AAB1BA477DD7">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-19 15:50:08 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E4B444D8-8E6F-7715-8BD2-5892C5F06CA1" referredColumn="5387C414-81F9-1AFA-6A9D-ED861F6D4F45"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E55173E-E70F-7A82-723C-C506668B99B7" name="Cenovnik_Dobavljaca_PK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-19 15:50:08 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="924BE1F1-408C-0BEB-D101-401403F8BCAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15D3D53A-E36E-DD53-1041-C4055B543170" name="Cenovnik_Dobavljaca_ProizvodiDobavljaca_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-19 15:51:29 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9F151D2-934B-FA38-E488-AAB1BA477DD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

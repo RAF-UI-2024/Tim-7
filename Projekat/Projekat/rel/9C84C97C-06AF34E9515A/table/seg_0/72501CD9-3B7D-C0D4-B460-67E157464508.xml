@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="72501CD9-3B7D-C0D4-B460-67E157464508" name="Ugovor">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-19 15:40:34 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<ordsAlias>table_41</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Ugovor" id="E54BD80B-2B4A-F29C-BD3E-FCEB9C047C28">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-19 15:42:08 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DatumPocetka" id="E017B432-4AB7-E9B0-0379-8BB54B58BBA0">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-19 15:42:08 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DatumIsteka" id="121F7C08-10EC-89BC-8F1B-FA236940CF4F">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-19 15:42:08 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Column_4" id="8C4732B7-7AD4-5394-1CBA-1ED2FDCBAA42">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-19 15:42:08 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_TipUgovora" id="9C13D5EE-0FF9-4B0F-D3CC-A01D9081A398">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-19 15:43:36 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="62BECFF7-C96B-E44D-6EB2-8963367ACEBE" referredColumn="60CCB6F2-01DC-9616-56F5-B46AB9DC5A4C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4F9B27DB-CD6B-6DEE-BB74-CEDE976FB440" name="Ugovor_PK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-19 15:42:08 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E54BD80B-2B4A-F29C-BD3E-FCEB9C047C28"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F134442E-B4E9-7A28-55F2-8C0CF442E3BC" name="Ugovor_TipUgovora_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-19 15:43:47 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C13D5EE-0FF9-4B0F-D3CC-A01D9081A398"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

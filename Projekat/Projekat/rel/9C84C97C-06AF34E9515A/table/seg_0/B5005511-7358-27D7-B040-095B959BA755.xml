@@ -15,9 +15,9 @@
 <createdTime>2024-12-02 15:56:43 UTC</createdTime>
 <ownerDesignName>Projekat</ownerDesignName>
 <importedID>2BCA8023-99E0-864F-E6A8-929D0951DED7</importedID>
-<use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<domain>4D190366-B345-5BAA-252B-8E267DCF5A66</domain>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -30,13 +30,26 @@
 <createdTime>2024-12-02 15:56:43 UTC</createdTime>
 <ownerDesignName>Projekat</ownerDesignName>
 <importedID>F04984F2-4992-706A-70D3-16F82B8145F4</importedID>
-<use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<domain>4D190366-B345-5BAA-252B-8E267DCF5A66</domain>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="27ABA65E-0F35-F655-D503-0E5DE5132D27" referredColumn="6426709B-C8D3-3C71-3936-DACDDDAB6B76"/>
+</associations>
+</Column>
+<Column name="id_Transporta" id="7809BC69-3267-C73F-3B34-4796409D2BC5">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-19 13:08:29 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="347792C1-E81F-8B1B-0300-0D685E924F78" referredColumn="69F4B5AF-0A6B-139C-6C9E-D959A0E86A6E"/>
 </associations>
 </Column>
 </columns>
@@ -73,6 +86,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="6B4C806A-E8CF-9284-BD19-BF3C981FC488"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F00F8CF9-0FB3-48D5-7365-79F341C8C58F" name="NabavkaVozila_Transport_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-19 13:08:29 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7809BC69-3267-C73F-3B34-4796409D2BC5"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

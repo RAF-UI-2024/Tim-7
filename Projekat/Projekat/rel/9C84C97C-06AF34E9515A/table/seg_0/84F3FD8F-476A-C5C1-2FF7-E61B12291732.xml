@@ -58,7 +58,7 @@
 <importedID>3D8B4AEF-AE28-2426-D976-ACC869D27724</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT008</logicalDatatype>
 <defaultValue>SYSDATE</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -115,6 +115,19 @@
 <colAssociation fkAssociation="76C44B18-C842-BCC7-800F-9C0E18B25616" referredColumn="2E126065-E689-DEBD-A344-456102FE67AD"/>
 </associations>
 </Column>
+<Column name="ID_Nabavke" id="8B5BE4FE-DA25-D259-ACC0-7D19F85A9A5D">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-19 13:14:21 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7A83118-BEC1-B896-536D-D2781B6A6C1F" referredColumn="AFEABFD6-EBBF-19BC-BBC3-56FECAA42356"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="8D97F4F0-EB60-2287-6479-5DFBAA27E03F" name="Logovi_PK">
@@ -168,6 +181,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="438536C7-FE85-221B-B7D8-DF5F99B826FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B061DC4-B304-2CEA-D8B8-3AD2FF75CCD2" name="Logovi_Nabavka_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-19 13:14:21 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B5BE4FE-DA25-D259-ACC0-7D19F85A9A5D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

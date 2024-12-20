@@ -24,21 +24,6 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <autoIncrementOrder>false</autoIncrementOrder>
 </Column>
-<Column name="ID_Vozila" id="68004D31-35C1-A377-AB1E-FFCF9D82F3AC">
-<sourceDDLFile>dtbs.sql</sourceDDLFile>
-<createdBy>bojan</createdBy>
-<createdTime>2024-12-02 15:56:43 UTC</createdTime>
-<ownerDesignName>Projekat</ownerDesignName>
-<importedID>D630B531-C4F3-4EFC-B469-AD371CCED99C</importedID>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="4B874AF6-ACB7-50E7-BF44-EBB4E353643E" referredColumn="6426709B-C8D3-3C71-3936-DACDDDAB6B76"/>
-</associations>
-</Column>
 <Column name="Destinacija" id="494CBAD6-FCA8-3CA8-923A-96985A663794">
 <sourceDDLFile>dtbs.sql</sourceDDLFile>
 <createdBy>bojan</createdBy>
@@ -76,6 +61,45 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ID_TransportnaFirma" id="0E982F9A-983F-4397-50C8-B3D57F309E51">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-19 13:02:34 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1AB82D2-0855-2508-5E3F-4E4B5D3FEB37" referredColumn="5E281F47-EDF7-E9FD-AF95-45E0D42428D0"/>
+</associations>
+</Column>
+<Column name="Skladiste" id="2E165DAA-384D-3853-44C9-CE24003849F5">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-19 13:03:15 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="22C5AB58-834E-57A1-1602-9F9CEBAF4A98" referredColumn="4867D996-7AEB-49A4-A97D-C8D0E24E2497"/>
+</associations>
+</Column>
+<Column name="ID_VoziloTransporta" id="23775375-2CBB-F5FE-9558-91D0FEF6F023">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-19 13:04:09 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7BC0BCFC-2992-00F1-F17E-A181CF6D8444" referredColumn="C2BC62F7-05BF-9C91-67C1-B94FD1EFE115"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="509B98C7-4574-B614-4F9A-88ACB896FD85" name="Transport_PK">
@@ -91,14 +115,34 @@
 <colUsage columnID="69F4B5AF-0A6B-139C-6C9E-D959A0E86A6E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="822083A1-31AB-6684-45D2-326F6A968996" name="Transport_Vozilo_FK">
+<ind_PK_UK id="9E5DDBAD-1280-5213-6BB1-A61822A35E5E" name="Transport_TransportnaFirma_FK">
 <createdBy>bojan</createdBy>
-<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<createdTime>2024-12-19 13:02:34 UTC</createdTime>
 <ownerDesignName>Projekat</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="68004D31-35C1-A377-AB1E-FFCF9D82F3AC"/>
+<colUsage columnID="0E982F9A-983F-4397-50C8-B3D57F309E51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6B41570-CBBE-BB7D-8ADA-7E62A2478B8B" name="Transport_Skladiste_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-19 13:03:15 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E165DAA-384D-3853-44C9-CE24003849F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD0EFD88-EFB3-CB9D-EFC4-86CB0EF16725" name="Transport_VoziloTransporta_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-19 13:04:09 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23775375-2CBB-F5FE-9558-91D0FEF6F023"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

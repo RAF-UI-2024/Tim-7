@@ -23,6 +23,9 @@
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <autoIncrementOrder>false</autoIncrementOrder>
+<associations>
+<colAssociation fkAssociation="289653BC-D22C-B925-1A3E-E61FC82D27F2" referredColumn="69F4B5AF-0A6B-139C-6C9E-D959A0E86A6E"/>
+</associations>
 </Column>
 <Column name="ID_Vozila" id="C9183B66-0F5E-D0E9-44AE-4981712504DD">
 <sourceDDLFile>dtbs.sql</sourceDDLFile>
@@ -93,6 +96,17 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="id_Transporta" id="0241CE15-F3DB-FBD2-ACC5-CA549BE9DF09">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-19 14:27:13 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="CA301479-E2E8-AE74-8790-B9B81AD0A3FF" name="Servis_PK">
@@ -126,6 +140,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="AE620F1A-1DD4-DB05-6489-988D07031A9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="105B26A9-EB0E-4B54-06C0-87F2E4D796AA" name="Servis_Transport_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-19 14:27:22 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CB8CC1E-EF84-01CE-2D86-4DE7D8073027"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

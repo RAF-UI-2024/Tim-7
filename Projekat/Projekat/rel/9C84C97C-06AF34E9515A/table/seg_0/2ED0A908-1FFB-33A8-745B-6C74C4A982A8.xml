@@ -109,6 +109,19 @@
 <colAssociation fkAssociation="533FE6AB-AA71-9A5E-B78F-A0E941D61BD9" referredColumn="A8A230FF-E5DE-1DB4-9CF0-D77F2EF44C39"/>
 </associations>
 </Column>
+<Column name="ID_Skladiste" id="E5003D64-BC84-4CA0-3EED-7105894B618D">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-19 13:05:14 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0936689E-6FF5-35EC-C8AC-757889C22758" referredColumn="4867D996-7AEB-49A4-A97D-C8D0E24E2497"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="E4968490-0553-232E-0F6A-FD783BF93CD0" name="Vozilo_PK">
@@ -154,6 +167,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="4774F157-C5DB-09AA-2186-15B3E3512F61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A6FAED2-5DCB-4FB8-F023-7518ED4860C8" name="Vozilo_Skladiste_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-19 13:05:14 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5003D64-BC84-4CA0-3EED-7105894B618D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

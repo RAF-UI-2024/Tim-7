@@ -30,6 +30,7 @@
 <createdTime>2024-12-02 15:56:43 UTC</createdTime>
 <ownerDesignName>Projekat</ownerDesignName>
 <importedID>4BC89AC5-1542-F4DE-8535-448C2B28AB74</importedID>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -63,6 +64,32 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ID_Skladiste" id="B89975B6-56FC-C72F-D4BB-89ECBA24DDF8">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-20 09:00:39 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9CE43E30-2BB7-7F4D-4BC0-58BC3B6BE46A" referredColumn="4867D996-7AEB-49A4-A97D-C8D0E24E2497"/>
+</associations>
+</Column>
+<Column name="ID_Transporta" id="67F61B79-7C1E-2378-EF15-03883AABB62D">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-20 09:00:39 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32C18316-2AD7-678E-20A6-DAC171728092" referredColumn="69F4B5AF-0A6B-139C-6C9E-D959A0E86A6E"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="3CFA7BBF-1CE3-DC7C-D9B8-DB8F2175C9F2" name="Nabavka_PK">
@@ -86,6 +113,26 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="06765300-5703-64D1-6961-1CC7657B6964"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C3C9DAE9-1427-620C-873C-9FC3F303A413" name="Nabavka_Skladiste_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-20 09:00:39 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B89975B6-56FC-C72F-D4BB-89ECBA24DDF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="349F74F5-F8B1-9A32-DD8E-B5E67BDB4ADB" name="Nabavka_Transport_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-20 09:01:44 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67F61B79-7C1E-2378-EF15-03883AABB62D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

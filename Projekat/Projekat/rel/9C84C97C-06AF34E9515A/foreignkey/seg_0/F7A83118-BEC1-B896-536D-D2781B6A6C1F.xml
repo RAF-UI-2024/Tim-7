@@ -1,10 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7EC10B3A-ECC1-0450-E512-9631E585623C" containerWithKeyObject="61CDC111-D194-E06A-CBBE-DB9D3876ECF9" localFKIndex="E720023A-D580-4AB4-BA89-E0056D2E6135" name="NabavkaDelova_Nabavka_FK">
-<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F7A83118-BEC1-B896-536D-D2781B6A6C1F" containerWithKeyObject="84F3FD8F-476A-C5C1-2FF7-E61B12291732" localFKIndex="1B061DC4-B304-2CEA-D8B8-3AD2FF75CCD2" name="Logovi_Nabavka_FK">
 <createdBy>bojan</createdBy>
-<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<createdTime>2024-12-19 13:14:21 UTC</createdTime>
 <ownerDesignName>Projekat</ownerDesignName>
-<importedID>1EB3C5CE-FBA3-181E-3179-ACA50DDE62ED</importedID>
 <referredTableLongName>Nabavka</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>56FFAF0B-38B0-9D52-77DF-3A602FD6CF63</referredTableID>

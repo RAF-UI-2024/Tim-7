@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C692E9E0-F187-5AF8-6B3E-CFCC2A32A560" name="VoziloTransporta">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-19 12:57:09 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<ordsAlias>table_39</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_VoziloTransporta" id="C2BC62F7-05BF-9C91-67C1-B94FD1EFE115">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-19 12:58:39 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipTransportnogVozila" id="EB3986E9-3D74-D3CF-BDB5-811CC96507D0">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-19 12:58:39 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>55</dataTypeSize>
+<ownDataTypeParameters>55,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Registracija" id="26A12E05-F7C0-AAE9-D547-1B3284BC4D2F">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-19 12:58:39 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nosivost" id="A73E41D6-A0A4-8651-85FF-915613E73F0F">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-19 12:58:50 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1B3479BD-FE5C-DC5A-23DE-6AD1F8CCBC9E" name="VoziloTransporta_PK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-19 12:58:39 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2BC62F7-05BF-9C91-67C1-B94FD1EFE115"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
