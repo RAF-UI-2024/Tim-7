@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="F28F0A69-FCC0-FD85-C74C-1F8F0DBE3A44" containerWithKeyObject="AABB616E-677B-4D35-3B7A-2A15FF6ED0E5" localFKIndex="63534C79-F83F-2143-A31E-EAED49AAB425" name="PregledVozila_Kupac_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-21 16:12:24 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<referredTableLongName>Kupac</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A1DF0AAF-013E-C95A-6197-CABFAED75E60</referredTableID>
+<keyObject>7AA90A0F-7565-9FD1-A244-CB0F81954E6B</keyObject>
+<referredKeyID>7AA90A0F-7565-9FD1-A244-CB0F81954E6B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Kupca</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

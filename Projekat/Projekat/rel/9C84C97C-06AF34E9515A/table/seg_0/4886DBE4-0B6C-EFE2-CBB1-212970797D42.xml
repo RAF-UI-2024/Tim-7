@@ -9,34 +9,45 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_Termina" id="2AF5D3DC-AF98-8A85-F87B-C2DFBC200F06">
+<Column name="ID_ZakazivanjaDela" id="FE83C0E3-ACF5-86C2-5A9C-1FAB4CEE5B3E">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-21 15:56:07 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZakazivanjeServisa" id="2AF5D3DC-AF98-8A85-F87B-C2DFBC200F06">
 <sourceDDLFile>dtbs.sql</sourceDDLFile>
 <createdBy>bojan</createdBy>
 <createdTime>2024-12-02 15:56:43 UTC</createdTime>
 <ownerDesignName>Projekat</ownerDesignName>
 <importedID>739FC377-8ADC-4C2C-EE28-6B0A2424E8E7</importedID>
-<use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<domain>4D190366-B345-5BAA-252B-8E267DCF5A66</domain>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="42A6D90B-53CF-391D-48CE-071041565E8C" referredColumn="58B75315-CF92-7E9D-066A-B06DBEAAF2FC"/>
 </associations>
 </Column>
-<Column name="ID_Dela" id="2A60F3B8-BFD6-1571-EAC3-E987E8E6A8F0">
+<Column name="ID_RezervnogDela" id="2A60F3B8-BFD6-1571-EAC3-E987E8E6A8F0">
 <sourceDDLFile>dtbs.sql</sourceDDLFile>
 <createdBy>bojan</createdBy>
 <createdTime>2024-12-02 15:56:43 UTC</createdTime>
 <ownerDesignName>Projekat</ownerDesignName>
 <importedID>FAA22B13-6E53-98B1-8859-06742D073FD5</importedID>
-<use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<domain>4D190366-B345-5BAA-252B-8E267DCF5A66</domain>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="8A6E1558-96C0-400E-3E56-6E352A5ADD13" referredColumn="5C791135-2E84-88E2-01C2-6D1BF561BD8C"/>
+<colAssociation fkAssociation="34E81237-A314-F616-8814-11528F825341" referredColumn="5C791135-2E84-88E2-01C2-6D1BF561BD8C"/>
 </associations>
 </Column>
 <Column name="Kolicina" id="A7D76E02-4FF7-23A0-1484-2B6C6D01365F">
@@ -51,6 +62,34 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ID_NabavkeDelova" id="F891899C-DB6B-0444-F8F7-13BC8C049602">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-21 15:45:30 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A5759A37-37E7-B9E6-925B-D8A8CDA0E478" referredColumn="DFCFDEBD-C964-E32C-E41F-9D088EBC37F7"/>
+</associations>
+</Column>
+<Column name="ID_Dela" id="4D86B5E8-63DC-B2FD-C8B2-BD45B7F3CB40">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-21 15:57:03 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9CB16E0-78B2-189B-EBE9-44D96098A98C" referredColumn="5387C414-81F9-1AFA-6A9D-ED861F6D4F45"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="60AB9708-C2A6-D8B6-85CF-FCD5AE98C4F4" name="ZakazivanjeDelova_PK">
@@ -63,18 +102,7 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="2AF5D3DC-AF98-8A85-F87B-C2DFBC200F06"/>
-<colUsage columnID="2A60F3B8-BFD6-1571-EAC3-E987E8E6A8F0"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="CF315F07-7F22-EC95-0F8E-90C26D31D830" name="ZakazivanjeDelova_RezervniDelovi_FK">
-<createdBy>bojan</createdBy>
-<createdTime>2024-12-02 15:56:43 UTC</createdTime>
-<ownerDesignName>Projekat</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="2A60F3B8-BFD6-1571-EAC3-E987E8E6A8F0"/>
+<colUsage columnID="FE83C0E3-ACF5-86C2-5A9C-1FAB4CEE5B3E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="83A1D7C8-4D16-F4BB-D4C9-A257603C523A" name="ZakazivanjeDelova_ZakazivanjeServisa_FK">
@@ -85,6 +113,36 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="2AF5D3DC-AF98-8A85-F87B-C2DFBC200F06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B1BD585-813A-6193-7DA2-ECE1B91CA7F4" name="ZakazivanjeDelova_RezervniDelovi_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-21 15:32:05 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A60F3B8-BFD6-1571-EAC3-E987E8E6A8F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C41755A7-0876-677A-DFF0-158BA7300C02" name="ZakazivanjeDelova_NabavkaDelova_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-21 15:45:30 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F891899C-DB6B-0444-F8F7-13BC8C049602"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="669740EB-2414-F657-8B3C-0668B58C5C5E" name="ZakazivanjeDelova_Delovi_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-21 15:57:13 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D86B5E8-63DC-B2FD-C8B2-BD45B7F3CB40"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -9,7 +9,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_Dela" id="5C791135-2E84-88E2-01C2-6D1BF561BD8C">
+<Column name="ID_RezervnogDela" id="5C791135-2E84-88E2-01C2-6D1BF561BD8C">
 <sourceDDLFile>dtbs.sql</sourceDDLFile>
 <createdBy>bojan</createdBy>
 <createdTime>2024-12-02 15:56:43 UTC</createdTime>
@@ -62,6 +62,32 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ID_Vozila" id="B1C5287F-18FC-A6EE-DD13-65B3BA6AA46E">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-21 15:09:07 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD859586-57CF-ED73-EBB1-473BDD8AC64D" referredColumn="6426709B-C8D3-3C71-3936-DACDDDAB6B76"/>
+</associations>
+</Column>
+<Column name="ID_Delovi" id="9536225E-D5CA-0103-1908-78A9CD8EED3C">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-21 15:10:15 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2110BB98-9C02-3DB4-6F91-601FD1BA5659" referredColumn="5387C414-81F9-1AFA-6A9D-ED861F6D4F45"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="B661D5B5-5AB6-634B-6726-E55A1F6AF4C1" name="RezervniDelovi_PK">
@@ -75,6 +101,26 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="5C791135-2E84-88E2-01C2-6D1BF561BD8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E239774-5705-AC75-B2E0-CBE8F183F606" name="RezervniDelovi_Vozilo_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-21 15:09:07 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1C5287F-18FC-A6EE-DD13-65B3BA6AA46E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D9757A6-B5C4-08A5-A898-CA8DCFF32211" name="RezervniDelovi_Delovi_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-21 15:10:46 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9536225E-D5CA-0103-1908-78A9CD8EED3C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -24,7 +24,7 @@
 <colAssociation fkAssociation="7EC10B3A-ECC1-0450-E512-9631E585623C" referredColumn="AFEABFD6-EBBF-19BC-BBC3-56FECAA42356"/>
 </associations>
 </Column>
-<Column name="ID_ProizvodiDobavljaca" id="2C33F876-D38A-9D30-9B06-30BCB2A3A67E">
+<Column name="ID_Delovi" id="2C33F876-D38A-9D30-9B06-30BCB2A3A67E">
 <sourceDDLFile>dtbs.sql</sourceDDLFile>
 <createdBy>bojan</createdBy>
 <createdTime>2024-12-02 15:56:43 UTC</createdTime>
@@ -59,6 +59,31 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="cena" id="07597675-3E58-C072-9A86-9C4194A05716">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-21 13:09:42 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Dobavljaca" id="67B27E48-BC81-3BA9-3594-3A8C0E776ED3">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-21 14:02:27 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9F13044-8125-4EAA-30FB-0C8F63BFB843" referredColumn="BCFBB49B-3A38-4029-3928-F958979B01CB"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="35300572-5659-FBFB-187C-C2C46F61683B" name="NabavkaDelova_PK">
@@ -92,6 +117,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="2C33F876-D38A-9D30-9B06-30BCB2A3A67E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4698368-8549-6F53-542B-6459D065C037" name="NabavkaDelova_Dobavljac_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-21 14:02:37 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67B27E48-BC81-3BA9-3594-3A8C0E776ED3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,15 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E4B444D8-8E6F-7715-8BD2-5892C5F06CA1" containerWithKeyObject="7C55A00E-B1E0-958A-B07F-38F4E018DD4D" localFKIndex="15D3D53A-E36E-DD53-1041-C4055B543170" name="Cenovnik_Dobavljaca_ProizvodiDobavljaca_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="2110BB98-9C02-3DB4-6F91-601FD1BA5659" containerWithKeyObject="F6CF0041-1F1F-2A19-E3B7-1D65D63487D1" localFKIndex="2D9757A6-B5C4-08A5-A898-CA8DCFF32211" name="RezervniDelovi_Delovi_FK">
 <createdBy>bojan</createdBy>
-<createdTime>2024-12-19 15:51:29 UTC</createdTime>
+<createdTime>2024-12-21 15:10:46 UTC</createdTime>
 <ownerDesignName>Projekat</ownerDesignName>
-<referredTableLongName>ProizvodiDobavljaca</referredTableLongName>
+<referredTableLongName>Delovi</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>D6AE3484-426C-8ED6-6C70-A40822AF5730</referredTableID>
 <keyObject>10574B87-C357-DC8C-A96B-36C54CFA8DF8</keyObject>
 <referredKeyID>10574B87-C357-DC8C-A96B-36C54CFA8DF8</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>ID_ProizvodiDobavljaca</refColNames>
+<refColNames>ID_Delovi</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

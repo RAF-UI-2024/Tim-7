@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AABB616E-677B-4D35-3B7A-2A15FF6ED0E5" name="PregledVozila">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-21 16:09:10 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<ordsAlias>table_57</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PregledVozila" id="67EA2BEF-0844-AAAA-1A67-7A595772D2C8">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-21 16:09:28 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datumPregleda" id="BFB09E59-F527-4B4D-B8BA-613E093CE90D">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-21 16:09:49 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opisPregleda" id="E409B60F-F838-9970-38A7-670C7EE8BEFC">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-21 16:10:06 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kljucneTacke" id="E8E9A720-D543-BA94-A64D-A335D9FC8F4B">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-21 16:10:24 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cenaPregleda" id="5D270722-2338-1ABC-CDCE-14C8CDB55F58">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-21 16:10:36 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Kupca" id="7857824A-5936-4B13-7413-097D0E430140">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-21 16:12:24 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F28F0A69-FCC0-FD85-C74C-1F8F0DBE3A44" referredColumn="B5FB099A-8781-29C7-3FFF-E35ED9AF03E2"/>
+</associations>
+</Column>
+<Column name="ID_Vozila" id="976CEB63-26B5-9E61-67B6-C9072DCAAA3D">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-21 16:12:40 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E8298D5-BE7E-189A-B423-67C205F353D3" referredColumn="6426709B-C8D3-3C71-3936-DACDDDAB6B76"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="304A4891-2566-4892-3CE7-32628664FF49" name="PregledVozila_PK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-21 16:09:28 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67EA2BEF-0844-AAAA-1A67-7A595772D2C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63534C79-F83F-2143-A31E-EAED49AAB425" name="PregledVozila_Kupac_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-21 16:12:24 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7857824A-5936-4B13-7413-097D0E430140"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BDBD1B52-E6E5-2185-A4E0-1F5ED5AA7DA1" name="PregledVozila_Vozilo_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-21 16:12:47 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="976CEB63-26B5-9E61-67B6-C9072DCAAA3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

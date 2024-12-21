@@ -1,10 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1A94C4A0-F655-022E-B65E-89AB82472CFA" containerWithKeyObject="56FFAF0B-38B0-9D52-77DF-3A602FD6CF63" localFKIndex="E6C3AA68-0B74-6432-AE26-7BCA791E85A5" name="Nabavka_Dobavljac_FK">
-<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B9F13044-8125-4EAA-30FB-0C8F63BFB843" containerWithKeyObject="61CDC111-D194-E06A-CBBE-DB9D3876ECF9" localFKIndex="B4698368-8549-6F53-542B-6459D065C037" name="NabavkaDelova_Dobavljac_FK">
 <createdBy>bojan</createdBy>
-<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<createdTime>2024-12-21 14:02:37 UTC</createdTime>
 <ownerDesignName>Projekat</ownerDesignName>
-<importedID>AA10B106-7E7F-58D0-EB96-7FB785B1422D</importedID>
 <referredTableLongName>Dobavljac</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>BEB15EE5-8BDC-6801-07C3-04FD6A6E7B0A</referredTableID>

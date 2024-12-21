@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3D9DD541-727B-D7A1-8C8F-F1F564BEF16A" name="TransportDelova">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-21 14:07:07 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<ordsAlias>table_53</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TransportDelova" id="19B8A8D7-2FFB-C54B-5F0E-CE362BFED536">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-21 14:07:28 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_NabavkeDelova" id="FDD88B02-C3FF-B9BB-A7C5-5677789CB82A">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-21 14:08:51 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE1569C2-B789-F34E-24FB-E8DA5FEE1373" referredColumn="4733170F-CAD2-5581-94F9-A9DC97B46918"/>
+<colAssociation fkAssociation="81C32789-DF18-E6C3-93E4-5E1E2745E2F8" referredColumn="DFCFDEBD-C964-E32C-E41F-9D088EBC37F7"/>
+</associations>
+</Column>
+<Column name="ID_Transport" id="27A2C00C-1F6A-ED23-7ABD-A31728EC3C62">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-21 14:08:51 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09916485-121F-F63B-04E1-1CCBBCC2E4F6" referredColumn="69F4B5AF-0A6B-139C-6C9E-D959A0E86A6E"/>
+</associations>
+</Column>
+<Column name="ID_SkladisteDelova" id="FBD24331-C138-3A51-03AB-7A291B971132">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-21 14:23:41 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA0576E8-B559-2F56-E7FD-44213C13C8A8" name="TransportDelova_PK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-21 14:07:28 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19B8A8D7-2FFB-C54B-5F0E-CE362BFED536"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE162A69-0BE3-1F6F-24B5-5055F9865A11" name="TransportDelova_Transport_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-21 14:08:51 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27A2C00C-1F6A-ED23-7ABD-A31728EC3C62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D64C8F6-FB45-E47C-F5E8-7F58EB5D1F6E" name="TransportDelova_NabavkaDelova_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-21 14:08:57 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDD88B02-C3FF-B9BB-A7C5-5677789CB82A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69E36BB4-DE0D-0B0C-32BF-CCBA0C8D4F32" name="TransportDelova_SkladisteDelova_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-21 14:26:17 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDD88B02-C3FF-B9BB-A7C5-5677789CB82A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -24,21 +24,6 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <autoIncrementOrder>false</autoIncrementOrder>
 </Column>
-<Column name="ID_Vozila" id="4DAE0BED-88F7-0EDB-5FCF-7A19A66B1340">
-<sourceDDLFile>dtbs.sql</sourceDDLFile>
-<createdBy>bojan</createdBy>
-<createdTime>2024-12-02 15:56:43 UTC</createdTime>
-<ownerDesignName>Projekat</ownerDesignName>
-<importedID>8CF778B0-9749-8055-1D1C-9F0291041378</importedID>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="1430E38B-CE33-9FA9-E9DF-C81CB8BFEF53" referredColumn="6426709B-C8D3-3C71-3936-DACDDDAB6B76"/>
-</associations>
-</Column>
 <Column name="ID_Osiguravaca" id="9E89C9D9-6015-E1DD-A85F-C243948F5C1A">
 <sourceDDLFile>dtbs.sql</sourceDDLFile>
 <createdBy>bojan</createdBy>
@@ -116,16 +101,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="9E89C9D9-6015-E1DD-A85F-C243948F5C1A"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="BEB05F54-2D63-1F4C-BEA7-C01E546D0556" name="Osiguranje_Vozilo_FK">
-<createdBy>bojan</createdBy>
-<createdTime>2024-12-02 15:56:43 UTC</createdTime>
-<ownerDesignName>Projekat</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="4DAE0BED-88F7-0EDB-5FCF-7A19A66B1340"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

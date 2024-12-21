@@ -1,10 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1430E38B-CE33-9FA9-E9DF-C81CB8BFEF53" containerWithKeyObject="396CBA1F-AF9D-50F0-4F76-298BA043674D" localFKIndex="BEB05F54-2D63-1F4C-BEA7-C01E546D0556" name="Osiguranje_Vozilo_FK">
-<sourceDDLFile>dtbs.sql</sourceDDLFile>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="1E8298D5-BE7E-189A-B423-67C205F353D3" containerWithKeyObject="AABB616E-677B-4D35-3B7A-2A15FF6ED0E5" localFKIndex="BDBD1B52-E6E5-2185-A4E0-1F5ED5AA7DA1" name="PregledVozila_Vozilo_FK">
 <createdBy>bojan</createdBy>
-<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<createdTime>2024-12-21 16:12:47 UTC</createdTime>
 <ownerDesignName>Projekat</ownerDesignName>
-<importedID>703D78F1-652F-4F32-A57B-511225C72D0C</importedID>
 <referredTableLongName>Vozilo</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>2ED0A908-1FFB-33A8-745B-6C74C4A982A8</referredTableID>

@@ -9,7 +9,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_Termina" id="58B75315-CF92-7E9D-066A-B06DBEAAF2FC">
+<Column name="ID_ZakazivanjeServisa" id="58B75315-CF92-7E9D-066A-B06DBEAAF2FC">
 <sourceDDLFile>dtbs.sql</sourceDDLFile>
 <createdBy>bojan</createdBy>
 <createdTime>2024-12-02 15:56:43 UTC</createdTime>
@@ -23,21 +23,6 @@
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <autoIncrementOrder>false</autoIncrementOrder>
-</Column>
-<Column name="ID_Vozila" id="DB857313-8ABD-3D01-4DCC-C09770FBE1BE">
-<sourceDDLFile>dtbs.sql</sourceDDLFile>
-<createdBy>bojan</createdBy>
-<createdTime>2024-12-02 15:56:43 UTC</createdTime>
-<ownerDesignName>Projekat</ownerDesignName>
-<importedID>07D4E49F-D1E1-1952-5AC0-5CF1DB180744</importedID>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="A76C98F3-E7CD-A8B4-B172-603031BA0072" referredColumn="6426709B-C8D3-3C71-3936-DACDDDAB6B76"/>
-</associations>
 </Column>
 <Column name="ID_Zaposlenog" id="F714EB56-068E-52C3-813C-D8DD3B03EAFF">
 <sourceDDLFile>dtbs.sql</sourceDDLFile>
@@ -66,6 +51,19 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ID_PregledVozila" id="227BB073-59FF-A36D-9068-514E42EADC68">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-21 16:18:26 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D04D8BD-ED76-DD75-157F-05AFD5CAF2A7" referredColumn="67EA2BEF-0844-AAAA-1A67-7A595772D2C8"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="C72F37EF-EC0D-80AF-C094-70E2EC5DA8E2" name="ZakazivanjeServisa_PK">
@@ -81,16 +79,6 @@
 <colUsage columnID="58B75315-CF92-7E9D-066A-B06DBEAAF2FC"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="EF3D8472-13B2-262E-9D17-17B38629861E" name="ZakazivanjeServisa_Vozilo_FK">
-<createdBy>bojan</createdBy>
-<createdTime>2024-12-02 15:56:43 UTC</createdTime>
-<ownerDesignName>Projekat</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="DB857313-8ABD-3D01-4DCC-C09770FBE1BE"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="C39F3EBD-DFD1-7205-933A-C342F9A778EE" name="ZakazivanjeServisa_Zaposleni_FK">
 <createdBy>bojan</createdBy>
 <createdTime>2024-12-02 15:56:43 UTC</createdTime>
@@ -99,6 +87,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="F714EB56-068E-52C3-813C-D8DD3B03EAFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE4320E5-482B-F718-6BBC-116C625EF72E" name="ZakazivanjeServisa_PregledVozila_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-21 16:18:37 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="227BB073-59FF-A36D-9068-514E42EADC68"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

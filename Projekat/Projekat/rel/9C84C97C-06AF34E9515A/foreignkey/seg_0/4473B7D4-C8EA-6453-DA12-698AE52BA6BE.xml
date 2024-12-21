@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="289653BC-D22C-B925-1A3E-E61FC82D27F2" containerWithKeyObject="F1CC1FC4-D144-5973-00A7-301ADA4AE643" localFKIndex="105B26A9-EB0E-4B54-06C0-87F2E4D796AA" name="Servis_Transport_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4473B7D4-C8EA-6453-DA12-698AE52BA6BE" containerWithKeyObject="359E0845-C88A-CB96-A802-292063E0D2A7" localFKIndex="50C54998-ED54-55D8-EF27-3BB3866EAB13" name="TransportiVozila_Transport_FK">
 <createdBy>bojan</createdBy>
-<createdTime>2024-12-19 14:27:22 UTC</createdTime>
+<createdTime>2024-12-21 13:54:46 UTC</createdTime>
 <ownerDesignName>Projekat</ownerDesignName>
 <referredTableLongName>Transport</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

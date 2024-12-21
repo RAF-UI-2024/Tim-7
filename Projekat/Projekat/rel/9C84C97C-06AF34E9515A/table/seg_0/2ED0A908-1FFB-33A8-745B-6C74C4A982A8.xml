@@ -118,8 +118,18 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Osiguranja" id="7C94C2B7-0B1F-3D10-CF0E-383EACF1D0EE">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-21 16:22:47 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="0936689E-6FF5-35EC-C8AC-757889C22758" referredColumn="4867D996-7AEB-49A4-A97D-C8D0E24E2497"/>
+<colAssociation fkAssociation="EF7073D2-2FF1-5663-A52C-E20AB90E18C4" referredColumn="50B951A5-36D6-4912-F065-FA77669DBF84"/>
 </associations>
 </Column>
 </columns>
@@ -169,14 +179,14 @@
 <colUsage columnID="4774F157-C5DB-09AA-2186-15B3E3512F61"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3A6FAED2-5DCB-4FB8-F023-7518ED4860C8" name="Vozilo_Skladiste_FK">
+<ind_PK_UK id="FB097758-B040-07AF-8E03-03BB44DEC5B3" name="Vozilo_Osiguranje_FK">
 <createdBy>bojan</createdBy>
-<createdTime>2024-12-19 13:05:14 UTC</createdTime>
+<createdTime>2024-12-21 16:22:54 UTC</createdTime>
 <ownerDesignName>Projekat</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E5003D64-BC84-4CA0-3EED-7105894B618D"/>
+<colUsage columnID="7C94C2B7-0B1F-3D10-CF0E-383EACF1D0EE"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
