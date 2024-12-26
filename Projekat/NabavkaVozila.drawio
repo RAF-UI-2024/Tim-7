@@ -1,0 +1,295 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="Page-1" id="4PKsvkbiUTpxi2lQglDV">
+    <mxGraphModel dx="1635" dy="2036" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="obB-HazjSI4sieli9A24-1" value="Menadžer nabavke" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="30" width="2600" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-4" value="Slanje iznosa budžeta" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="obB-HazjSI4sieli9A24-1">
+          <mxGeometry x="40" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="obB-HazjSI4sieli9A24-1" source="obB-HazjSI4sieli9A24-8" target="obB-HazjSI4sieli9A24-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-8" value="Prijem informacija" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="obB-HazjSI4sieli9A24-1">
+          <mxGeometry x="200" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="obB-HazjSI4sieli9A24-1" source="obB-HazjSI4sieli9A24-12" target="obB-HazjSI4sieli9A24-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="obB-HazjSI4sieli9A24-1" source="obB-HazjSI4sieli9A24-12" target="obB-HazjSI4sieli9A24-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="20" />
+              <mxPoint x="800" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-12" value="Odgovara izbor vozila" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="obB-HazjSI4sieli9A24-1">
+          <mxGeometry x="400" y="40" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-16" value="Slanje zahteva za promenu izbora vozila" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="obB-HazjSI4sieli9A24-1">
+          <mxGeometry x="585" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-28" value="Slanje zahteva za dogovor oko transporta" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="obB-HazjSI4sieli9A24-1">
+          <mxGeometry x="740" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="obB-HazjSI4sieli9A24-1" source="obB-HazjSI4sieli9A24-35" target="obB-HazjSI4sieli9A24-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-35" value="Prijem informacija" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="obB-HazjSI4sieli9A24-1">
+          <mxGeometry x="940" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-37" value="Slanje zahteva za moguče spajanje isporuka" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="obB-HazjSI4sieli9A24-1">
+          <mxGeometry x="1140" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="obB-HazjSI4sieli9A24-1" source="obB-HazjSI4sieli9A24-45" target="obB-HazjSI4sieli9A24-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-45" value="Način plaćanja?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="obB-HazjSI4sieli9A24-1">
+          <mxGeometry x="1535" y="40" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="obB-HazjSI4sieli9A24-1" source="obB-HazjSI4sieli9A24-50" target="obB-HazjSI4sieli9A24-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-50" value="Valuta?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="obB-HazjSI4sieli9A24-1">
+          <mxGeometry x="1725" y="40" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-30" value="da" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="obB-HazjSI4sieli9A24-1">
+          <mxGeometry x="470" y="20" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-19" value="ne" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="obB-HazjSI4sieli9A24-1">
+          <mxGeometry x="510" y="60" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-52" value="keš" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="obB-HazjSI4sieli9A24-1">
+          <mxGeometry x="1660" y="70" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-53" value="Izvršenje uplate" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="obB-HazjSI4sieli9A24-1">
+          <mxGeometry x="1720" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-60" value="euri" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="obB-HazjSI4sieli9A24-1">
+          <mxGeometry x="1740" y="170" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-62" value="dinari" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="obB-HazjSI4sieli9A24-1">
+          <mxGeometry x="1805" y="170" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-75" value="odloženo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="obB-HazjSI4sieli9A24-1">
+          <mxGeometry x="1450" y="40" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-73" value="Slanje roka za odloženo plaćanje" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="obB-HazjSI4sieli9A24-1">
+          <mxGeometry x="2110" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="obB-HazjSI4sieli9A24-1" source="obB-HazjSI4sieli9A24-45" target="obB-HazjSI4sieli9A24-73">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1520" y="95" />
+              <mxPoint x="1520" y="20" />
+              <mxPoint x="2170" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-71" value="kredit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="obB-HazjSI4sieli9A24-1">
+          <mxGeometry x="1655" y="30" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-2" value="Dobavljač" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="360" width="2600" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-6" value="Pronalazak i slanje najaktuelnijih vozila u okviru budžeta" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="obB-HazjSI4sieli9A24-2">
+          <mxGeometry x="40" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="obB-HazjSI4sieli9A24-2" source="obB-HazjSI4sieli9A24-24" target="obB-HazjSI4sieli9A24-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="645" y="170" />
+              <mxPoint x="100" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-24" value="Moguća promena izbora?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="obB-HazjSI4sieli9A24-2">
+          <mxGeometry x="588.13" y="50" width="113.75" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-27" value="da" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="obB-HazjSI4sieli9A24-2">
+          <mxGeometry x="588.13" y="140" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="obB-HazjSI4sieli9A24-2" source="obB-HazjSI4sieli9A24-31" target="obB-HazjSI4sieli9A24-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-31" value="Sastavljanje spiska vozila sa načinom transporta" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="obB-HazjSI4sieli9A24-2">
+          <mxGeometry x="740" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-33" value="Slanje spiska" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="obB-HazjSI4sieli9A24-2">
+          <mxGeometry x="940" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="obB-HazjSI4sieli9A24-2" source="obB-HazjSI4sieli9A24-39" target="obB-HazjSI4sieli9A24-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="obB-HazjSI4sieli9A24-2" source="obB-HazjSI4sieli9A24-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1600" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1200" y="170" />
+              <mxPoint x="1600" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-39" value="Moguće spajanje?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="obB-HazjSI4sieli9A24-2">
+          <mxGeometry x="1145" y="50" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="obB-HazjSI4sieli9A24-2" source="obB-HazjSI4sieli9A24-41" target="obB-HazjSI4sieli9A24-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-41" value="Moguća spajanja pošiljki" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="obB-HazjSI4sieli9A24-2">
+          <mxGeometry x="1330" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-43" value="Slanje upita za način plaćanja" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="obB-HazjSI4sieli9A24-2">
+          <mxGeometry x="1530" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-47" value="da" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="obB-HazjSI4sieli9A24-2">
+          <mxGeometry x="1270" y="70" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-49" value="ne" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="obB-HazjSI4sieli9A24-2">
+          <mxGeometry x="1240" y="140" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="obB-HazjSI4sieli9A24-2" source="obB-HazjSI4sieli9A24-55" target="obB-HazjSI4sieli9A24-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-55" value="Prijem uplate" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="obB-HazjSI4sieli9A24-2">
+          <mxGeometry x="1720" y="125" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="obB-HazjSI4sieli9A24-2" source="obB-HazjSI4sieli9A24-57" target="obB-HazjSI4sieli9A24-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-57" value="Konvertovanje novca" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="obB-HazjSI4sieli9A24-2">
+          <mxGeometry x="1720" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="obB-HazjSI4sieli9A24-2" source="obB-HazjSI4sieli9A24-64" target="obB-HazjSI4sieli9A24-55">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1985" y="205" />
+              <mxPoint x="1780" y="205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-64" value="Banka odobrava kredit?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="obB-HazjSI4sieli9A24-2">
+          <mxGeometry x="1930" y="20" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-78" value="Rok odgovara?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="obB-HazjSI4sieli9A24-2">
+          <mxGeometry x="2115" y="35" width="110" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-80" value="Potpisivanje ugovora" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="obB-HazjSI4sieli9A24-2">
+          <mxGeometry x="2300" y="57.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="obB-HazjSI4sieli9A24-2" source="obB-HazjSI4sieli9A24-78" target="obB-HazjSI4sieli9A24-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="obB-HazjSI4sieli9A24-3" target="obB-HazjSI4sieli9A24-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-3" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-60" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="obB-HazjSI4sieli9A24-4" target="obB-HazjSI4sieli9A24-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="obB-HazjSI4sieli9A24-6" target="obB-HazjSI4sieli9A24-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="obB-HazjSI4sieli9A24-16" target="obB-HazjSI4sieli9A24-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="obB-HazjSI4sieli9A24-28" target="obB-HazjSI4sieli9A24-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="obB-HazjSI4sieli9A24-33" target="obB-HazjSI4sieli9A24-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="obB-HazjSI4sieli9A24-37" target="obB-HazjSI4sieli9A24-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="obB-HazjSI4sieli9A24-43" target="obB-HazjSI4sieli9A24-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="obB-HazjSI4sieli9A24-53" target="obB-HazjSI4sieli9A24-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="obB-HazjSI4sieli9A24-50" target="obB-HazjSI4sieli9A24-55">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1930" y="155" />
+              <mxPoint x="1930" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-68" value="da" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2020" y="498" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="obB-HazjSI4sieli9A24-64" target="obB-HazjSI4sieli9A24-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2120" y="435" />
+              <mxPoint x="2120" y="590" />
+              <mxPoint x="1740" y="590" />
+              <mxPoint x="1740" y="183" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-70" value="ne" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2090" y="488" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="obB-HazjSI4sieli9A24-73" target="obB-HazjSI4sieli9A24-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-84" value="da" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2300" y="418" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.143;entryY=0.687;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="obB-HazjSI4sieli9A24-78" target="obB-HazjSI4sieli9A24-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2240" y="610" />
+              <mxPoint x="1580" y="610" />
+              <mxPoint x="1580" y="146" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-86" value="ne" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="538" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="obB-HazjSI4sieli9A24-87" target="obB-HazjSI4sieli9A24-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-87" value="Registracija transakcije" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2500" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="obB-HazjSI4sieli9A24-80" target="obB-HazjSI4sieli9A24-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-89" value="Kraj" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2505" y="710" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="obB-HazjSI4sieli9A24-45" target="obB-HazjSI4sieli9A24-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1660" y="60" />
+              <mxPoint x="2055" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="obB-HazjSI4sieli9A24-24" target="obB-HazjSI4sieli9A24-89">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="780" y="460" />
+              <mxPoint x="780" y="740" />
+              <mxPoint x="1638" y="740" />
+              <mxPoint x="1638" y="745" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="obB-HazjSI4sieli9A24-93" value="ne" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="740" y="508" width="40" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
