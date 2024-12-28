@@ -18,7 +18,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ID_Vozila" id="BBCDAB23-C68F-02E2-5884-39B53A4A9DD8">
+<Column name="ID_VozilaFirme" id="BBCDAB23-C68F-02E2-5884-39B53A4A9DD8">
 <createdBy>djradovic</createdBy>
 <createdTime>2024-12-09 19:41:51 UTC</createdTime>
 <ownerDesignName>Projekat</ownerDesignName>
@@ -28,7 +28,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="ECE72331-DC2F-8E60-D853-ED1970AD84B2" referredColumn="6426709B-C8D3-3C71-3936-DACDDDAB6B76"/>
+<colAssociation fkAssociation="CF91D0CF-1977-82A1-9A57-842343CBE15B" referredColumn="D3079DC8-1E03-EF8D-6869-F5EBDD412EE4"/>
 </associations>
 </Column>
 <Column name="iznos" id="035CDBC7-862C-EA19-8035-8F13248EB42E">
@@ -78,16 +78,6 @@
 <colUsage columnID="E1A3276E-2CF5-0E44-A238-1222920B3EE5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="BB3DD4C1-DEDC-9494-B104-4BC9D24D485C" name="Cena_Vozilo_FK">
-<createdBy>djradovic</createdBy>
-<createdTime>2024-12-09 19:42:08 UTC</createdTime>
-<ownerDesignName>Projekat</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="BBCDAB23-C68F-02E2-5884-39B53A4A9DD8"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="4A9E1750-A9C9-0FDD-B522-D08D8E05843A" name="Cena_Cenovnik_FK">
 <createdBy>djradovic</createdBy>
 <createdTime>2024-12-09 19:44:39 UTC</createdTime>
@@ -96,6 +86,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="BC99C080-6E73-20AA-1051-9858E533643D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A93439DB-AB23-5D28-8F98-8D2E27624EFB" name="Cena_VoziloFirme_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-28 13:23:18 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBCDAB23-C68F-02E2-5884-39B53A4A9DD8"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

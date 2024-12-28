@@ -8,7 +8,7 @@
 <referredTableID>F1CC1FC4-D144-5973-00A7-301ADA4AE643</referredTableID>
 <keyObject>CA301479-E2E8-AE74-8790-B9B81AD0A3FF</keyObject>
 <referredKeyID>CA301479-E2E8-AE74-8790-B9B81AD0A3FF</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>ID_Servisa</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

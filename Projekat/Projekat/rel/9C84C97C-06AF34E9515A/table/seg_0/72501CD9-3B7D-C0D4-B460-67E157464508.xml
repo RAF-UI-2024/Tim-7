@@ -38,15 +38,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Column_4" id="8C4732B7-7AD4-5394-1CBA-1ED2FDCBAA42">
-<createdBy>bojan</createdBy>
-<createdTime>2024-12-19 15:42:08 UTC</createdTime>
-<ownerDesignName>Projekat</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="ID_TipUgovora" id="9C13D5EE-0FF9-4B0F-D3CC-A01D9081A398">
 <createdBy>bojan</createdBy>
 <createdTime>2024-12-19 15:43:36 UTC</createdTime>
@@ -56,9 +47,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="62BECFF7-C96B-E44D-6EB2-8963367ACEBE" referredColumn="60CCB6F2-01DC-9616-56F5-B46AB9DC5A4C"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -71,16 +59,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="E54BD80B-2B4A-F29C-BD3E-FCEB9C047C28"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="F134442E-B4E9-7A28-55F2-8C0CF442E3BC" name="Ugovor_TipUgovora_FK">
-<createdBy>bojan</createdBy>
-<createdTime>2024-12-19 15:43:47 UTC</createdTime>
-<ownerDesignName>Projekat</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="9C13D5EE-0FF9-4B0F-D3CC-A01D9081A398"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

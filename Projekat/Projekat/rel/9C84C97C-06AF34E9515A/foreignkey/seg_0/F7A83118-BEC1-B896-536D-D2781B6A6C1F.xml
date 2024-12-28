@@ -8,7 +8,7 @@
 <referredTableID>56FFAF0B-38B0-9D52-77DF-3A602FD6CF63</referredTableID>
 <keyObject>3CFA7BBF-1CE3-DC7C-D9B8-DB8F2175C9F2</keyObject>
 <referredKeyID>3CFA7BBF-1CE3-DC7C-D9B8-DB8F2175C9F2</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>ID_Nabavke</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

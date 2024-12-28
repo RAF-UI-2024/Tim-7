@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5DA42BE9-DB04-0286-6828-61384B7E21D7" name="SkladisteVozila">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E05C98B5-9063-63B9-670D-D48C11691D52" name="UgovorProdaja">
 <createdBy>bojan</createdBy>
-<createdTime>2024-12-21 13:41:55 UTC</createdTime>
+<createdTime>2024-12-28 15:07:47 UTC</createdTime>
 <ownerDesignName>Projekat</ownerDesignName>
-<ordsAlias>table_50</ordsAlias>
+<ordsAlias>table_54</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_SkladisteVozila" id="A2E4B6FF-0E5C-3D43-726C-2779826C8609">
+<Column name="ID_UgovorProdaja" id="20340E6A-C12A-C970-2F7B-A944AA461E3B">
 <createdBy>bojan</createdBy>
-<createdTime>2024-12-21 13:42:14 UTC</createdTime>
+<createdTime>2024-12-28 15:09:08 UTC</createdTime>
 <ownerDesignName>Projekat</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,19 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ID_VoziloFirme" id="5A9FE1DE-662B-C236-9E5A-13EEED09CF83">
+<Column name="ID_Ugovor" id="00F50259-9C34-8507-0932-DC705F11E03D">
 <createdBy>bojan</createdBy>
-<createdTime>2024-12-21 13:42:48 UTC</createdTime>
-<ownerDesignName>Projekat</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="ID_Skladiste" id="C482C062-0548-5A36-CA52-1606794CDF81">
-<createdBy>bojan</createdBy>
-<createdTime>2024-12-21 13:42:48 UTC</createdTime>
+<createdTime>2024-12-28 17:39:12 UTC</createdTime>
 <ownerDesignName>Projekat</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -38,30 +28,30 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="B5538701-BCCC-5896-182C-1598730DDC7E" referredColumn="4867D996-7AEB-49A4-A97D-C8D0E24E2497"/>
+<colAssociation fkAssociation="0240B464-D1E5-EDE7-E97F-9FF9AAE65265" referredColumn="E54BD80B-2B4A-F29C-BD3E-FCEB9C047C28"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="9D12A4E4-E9E7-483D-0B29-EED02FFFCF93" name="SkladisteVozila_PK">
+<ind_PK_UK id="30FB3B53-2BF2-4980-7B05-C82B84F5B810" name="UgovorProdaja_PK">
 <createdBy>bojan</createdBy>
-<createdTime>2024-12-21 13:42:14 UTC</createdTime>
+<createdTime>2024-12-28 15:09:08 UTC</createdTime>
 <ownerDesignName>Projekat</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A2E4B6FF-0E5C-3D43-726C-2779826C8609"/>
+<colUsage columnID="20340E6A-C12A-C970-2F7B-A944AA461E3B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B70E4238-B495-157D-DCAC-C2D5848EEF5F" name="SkladisteVozila_Skladiste_FK">
+<ind_PK_UK id="81FEBC5C-4947-050C-08F4-D0FEA16E146B" name="UgovorProdaja_Ugovor_FK">
 <createdBy>bojan</createdBy>
-<createdTime>2024-12-21 13:43:03 UTC</createdTime>
+<createdTime>2024-12-28 17:40:08 UTC</createdTime>
 <ownerDesignName>Projekat</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C482C062-0548-5A36-CA52-1606794CDF81"/>
+<colUsage columnID="00F50259-9C34-8507-0932-DC705F11E03D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
