@@ -67,6 +67,7 @@
 <createdBy>bojan</createdBy>
 <createdTime>2024-12-02 17:26:19 UTC</createdTime>
 <ownerDesignName>Projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -80,6 +81,7 @@
 <createdBy>bojan</createdBy>
 <createdTime>2024-12-02 17:27:02 UTC</createdTime>
 <ownerDesignName>Projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -93,6 +95,7 @@
 <createdBy>bojan</createdBy>
 <createdTime>2024-12-02 17:27:02 UTC</createdTime>
 <ownerDesignName>Projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -106,6 +109,7 @@
 <createdBy>bojan</createdBy>
 <createdTime>2024-12-02 17:32:49 UTC</createdTime>
 <ownerDesignName>Projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -119,6 +123,7 @@
 <createdBy>bojan</createdBy>
 <createdTime>2024-12-19 13:14:21 UTC</createdTime>
 <ownerDesignName>Projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -126,6 +131,20 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="F7A83118-BEC1-B896-536D-D2781B6A6C1F" referredColumn="AFEABFD6-EBBF-19BC-BBC3-56FECAA42356"/>
+</associations>
+</Column>
+<Column name="ID_Ugovor" id="8B731E15-CAAE-FA24-4ADA-BB82B735CB1B">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-28 17:41:24 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08D50FE4-E9F6-E8BD-59B7-FBA9FFCFC9BD" referredColumn="E54BD80B-2B4A-F29C-BD3E-FCEB9C047C28"/>
 </associations>
 </Column>
 </columns>
@@ -191,6 +210,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="8B5BE4FE-DA25-D259-ACC0-7D19F85A9A5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA1D2D6C-0865-7623-CE81-0BAECF542331" name="Logovi_Ugovor_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-28 17:41:37 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B731E15-CAAE-FA24-4ADA-BB82B735CB1B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

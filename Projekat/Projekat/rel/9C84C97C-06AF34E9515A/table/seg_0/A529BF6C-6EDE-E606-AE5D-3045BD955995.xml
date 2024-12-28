@@ -15,28 +15,28 @@
 <createdTime>2024-12-02 15:56:43 UTC</createdTime>
 <ownerDesignName>Projekat</ownerDesignName>
 <importedID>32FA3A7F-FC3F-C80C-6EEC-F54A91E224B6</importedID>
-<use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<domain>4D190366-B345-5BAA-252B-8E267DCF5A66</domain>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="87C51157-3B66-2B56-6D24-8853AFFD65EC" referredColumn="FD5662A2-CBF5-0A8E-09AF-5E58AFFE8783"/>
 </associations>
 </Column>
-<Column name="ID_Vozila" id="53BF6CFF-D624-CBA5-87CF-4F2635DC5B33">
+<Column name="ID_FirminoVozilo" id="53BF6CFF-D624-CBA5-87CF-4F2635DC5B33">
 <sourceDDLFile>dtbs.sql</sourceDDLFile>
 <createdBy>bojan</createdBy>
 <createdTime>2024-12-02 15:56:43 UTC</createdTime>
 <ownerDesignName>Projekat</ownerDesignName>
 <importedID>0EFFFD54-DDFB-C5D9-F854-AF4FE974979A</importedID>
-<use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<domain>4D190366-B345-5BAA-252B-8E267DCF5A66</domain>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="1A79C3D5-CB12-C922-EE66-885335D8A202" referredColumn="6426709B-C8D3-3C71-3936-DACDDDAB6B76"/>
+<colAssociation fkAssociation="8CE90A12-AF67-C43A-0B9A-72ADBC5E84BE" referredColumn="D3079DC8-1E03-EF8D-6869-F5EBDD412EE4"/>
 </associations>
 </Column>
 <Column name="ProcenatPopusta" id="1A295D7A-F600-1F79-D5CA-0CA9C0CE6D80">
@@ -85,9 +85,9 @@
 <colUsage columnID="D585B770-87EB-16AD-12DB-EF2CEDBD5E4F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A8C54C31-1818-D612-C29B-27AE59D5636F" name="Promocija_Vozilo_FK">
+<ind_PK_UK id="A6737534-8260-89F7-5FC4-3776D646F961" name="Promocija_VoziloFirme_FK">
 <createdBy>bojan</createdBy>
-<createdTime>2024-12-02 15:56:43 UTC</createdTime>
+<createdTime>2024-12-28 14:58:38 UTC</createdTime>
 <ownerDesignName>Projekat</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>

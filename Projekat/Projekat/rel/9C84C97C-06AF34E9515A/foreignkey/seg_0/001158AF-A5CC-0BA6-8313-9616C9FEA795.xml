@@ -8,7 +8,7 @@
 <referredTableID>509063ED-5592-DA0D-38EF-68064147BA0B</referredTableID>
 <keyObject>953B02EF-14C0-89EA-04B9-DCF6048C411A</keyObject>
 <referredKeyID>953B02EF-14C0-89EA-04B9-DCF6048C411A</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>ID_Prodaje</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

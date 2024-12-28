@@ -8,7 +8,7 @@
 <referredTableID>D43845EC-73EB-5528-065D-CBC6B58F9467</referredTableID>
 <keyObject>827ED05C-B018-9F55-D4BF-5E78CCD90EB4</keyObject>
 <referredKeyID>827ED05C-B018-9F55-D4BF-5E78CCD90EB4</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>ID_Aktivnosti</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

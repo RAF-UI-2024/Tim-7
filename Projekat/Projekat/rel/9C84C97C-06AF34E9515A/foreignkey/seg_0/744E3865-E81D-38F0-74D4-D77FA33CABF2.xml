@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="744E3865-E81D-38F0-74D4-D77FA33CABF2" containerWithKeyObject="379EBF45-E943-2279-59ED-B2F406EEF349" localFKIndex="47A48C57-397B-4CD2-BFB9-1BB2096ACCC2" name="Popravka_PregledVozila_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-28 13:59:52 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<referredTableLongName>PregledVozila</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AABB616E-677B-4D35-3B7A-2A15FF6ED0E5</referredTableID>
+<keyObject>304A4891-2566-4892-3CE7-32628664FF49</keyObject>
+<referredKeyID>304A4891-2566-4892-3CE7-32628664FF49</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_PregledVozila</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

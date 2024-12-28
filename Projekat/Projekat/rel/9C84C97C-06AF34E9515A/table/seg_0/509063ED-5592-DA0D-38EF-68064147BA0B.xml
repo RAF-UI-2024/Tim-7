@@ -24,7 +24,7 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <autoIncrementOrder>false</autoIncrementOrder>
 </Column>
-<Column name="ID_Vozila" id="CAF790D8-BF4F-3102-6E68-07715A3A69A9">
+<Column name="ID_VozilaFirme" id="CAF790D8-BF4F-3102-6E68-07715A3A69A9">
 <sourceDDLFile>dtbs.sql</sourceDDLFile>
 <createdBy>bojan</createdBy>
 <createdTime>2024-12-02 15:56:43 UTC</createdTime>
@@ -36,7 +36,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="2E5211AC-8DBC-E3CC-BCBF-3AF5D4494131" referredColumn="6426709B-C8D3-3C71-3936-DACDDDAB6B76"/>
+<colAssociation fkAssociation="81D21EC7-0694-1591-99E0-8CCEA9D38473" referredColumn="D3079DC8-1E03-EF8D-6869-F5EBDD412EE4"/>
 </associations>
 </Column>
 <Column name="ID_Kupca" id="99BBB485-9BD4-95BF-B4AD-FA0145FE0249">
@@ -60,6 +60,7 @@
 <createdTime>2024-12-02 15:56:43 UTC</createdTime>
 <ownerDesignName>Projekat</ownerDesignName>
 <importedID>53694FCE-7F5E-A058-26D2-1A7AF9AF4923</importedID>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -111,6 +112,19 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ID_FakturaPlacanja" id="984E7615-40BD-A589-06C6-15A944970024">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-28 15:16:57 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9CC8B31D-0153-4B07-177C-466912DF7A79" referredColumn="CC4E9CA4-A358-01B6-CD51-39CE8DE160FD"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="953B02EF-14C0-89EA-04B9-DCF6048C411A" name="Prodaja_PK">
@@ -136,17 +150,7 @@
 <colUsage columnID="99BBB485-9BD4-95BF-B4AD-FA0145FE0249"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3CFDA154-A09B-13A3-6A04-40482C192F62" name="Prodaja_Vozilo_FK">
-<createdBy>bojan</createdBy>
-<createdTime>2024-12-02 15:56:43 UTC</createdTime>
-<ownerDesignName>Projekat</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="CAF790D8-BF4F-3102-6E68-07715A3A69A9"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="4C7ADC54-22B5-C742-5F25-10EE76C716DE" name="Prodaja_Zaposleni_FK">
+<ind_PK_UK id="4C7ADC54-22B5-C742-5F25-10EE76C716DE" name="Prodaja_Vozilo_FK">
 <createdBy>bojan</createdBy>
 <createdTime>2024-12-02 15:56:43 UTC</createdTime>
 <ownerDesignName>Projekat</ownerDesignName>
@@ -154,6 +158,26 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="B1D4CF69-2A50-B448-CEB9-99F9F425839A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4ECA329C-4EBC-7A37-64FC-6791C02569D7" name="Prodaja_VoziloFirme_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-28 15:04:43 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAF790D8-BF4F-3102-6E68-07715A3A69A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E3A1895-48BD-238B-3673-BCF99926C5D4" name="Prodaja_FakturaPlacanja_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-28 15:17:17 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="984E7615-40BD-A589-06C6-15A944970024"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

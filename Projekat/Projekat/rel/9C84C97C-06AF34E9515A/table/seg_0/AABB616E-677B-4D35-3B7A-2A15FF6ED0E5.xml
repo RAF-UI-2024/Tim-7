@@ -73,7 +73,7 @@
 <colAssociation fkAssociation="F28F0A69-FCC0-FD85-C74C-1F8F0DBE3A44" referredColumn="B5FB099A-8781-29C7-3FFF-E35ED9AF03E2"/>
 </associations>
 </Column>
-<Column name="ID_Vozila" id="976CEB63-26B5-9E61-67B6-C9072DCAAA3D">
+<Column name="ID_KlijentskoVozilo" id="976CEB63-26B5-9E61-67B6-C9072DCAAA3D">
 <createdBy>bojan</createdBy>
 <createdTime>2024-12-21 16:12:40 UTC</createdTime>
 <ownerDesignName>Projekat</ownerDesignName>
@@ -83,7 +83,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="1E8298D5-BE7E-189A-B423-67C205F353D3" referredColumn="6426709B-C8D3-3C71-3936-DACDDDAB6B76"/>
+<colAssociation fkAssociation="528BC41A-B777-0AAD-3735-FA262F0BB3D6" referredColumn="D4802669-26FA-94A4-0DA9-3FB2F2CAE17E"/>
+</associations>
+</Column>
+<Column name="ID_Zaposlenog" id="D29D6430-E890-45F6-4099-ADC4611ECDB8">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-28 13:37:46 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9EA368D8-04F7-712E-A945-55DC6F9C5C16" referredColumn="683F704E-BB09-1858-73CC-F8C7F3ECF539"/>
 </associations>
 </Column>
 </columns>
@@ -109,14 +122,24 @@
 <colUsage columnID="7857824A-5936-4B13-7413-097D0E430140"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="BDBD1B52-E6E5-2185-A4E0-1F5ED5AA7DA1" name="PregledVozila_Vozilo_FK">
+<ind_PK_UK id="2DDE35E2-813A-E201-64BD-89E622380DE2" name="PregledVozila_KlijentskoVozilo_FK">
 <createdBy>bojan</createdBy>
-<createdTime>2024-12-21 16:12:47 UTC</createdTime>
+<createdTime>2024-12-28 13:36:31 UTC</createdTime>
 <ownerDesignName>Projekat</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="976CEB63-26B5-9E61-67B6-C9072DCAAA3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F5605CF-453B-40C3-9854-44A9C96F7562" name="PregledVozila_Zaposleni_FK">
+<createdBy>bojan</createdBy>
+<createdTime>2024-12-28 13:37:46 UTC</createdTime>
+<ownerDesignName>Projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D29D6430-E890-45F6-4099-ADC4611ECDB8"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

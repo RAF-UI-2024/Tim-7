@@ -57,31 +57,6 @@
 </rangeDef>
 </listOfRanges>
 </Column>
-<Column name="ID_Prodaje" id="E4383904-9507-66E7-A28A-28E47F7B7010">
-<createdBy>bojan</createdBy>
-<createdTime>2024-12-02 17:28:53 UTC</createdTime>
-<ownerDesignName>Projekat</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="ID_Servisa" id="D43EB8D8-0C5C-4D22-052F-728106D14096">
-<createdBy>bojan</createdBy>
-<createdTime>2024-12-02 17:28:53 UTC</createdTime>
-<ownerDesignName>Projekat</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="768847FA-9727-53E2-EC38-3E3032AFC54D" referredColumn="7CB8CC1E-EF84-01CE-2D86-4DE7D8073027"/>
-<colAssociation fkAssociation="29599386-E63E-9EC9-BF00-E6DA4A3D2E21" referredColumn="32692559-A746-D391-0B75-FCFC401F4CF3"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="C1006DBD-AC51-6C0B-325A-CD6BCD1BA299" name="PoreskeStope_PK">
@@ -95,26 +70,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="FAF406EB-0070-CE33-F393-044C1E4B2BCF"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="F722AF13-DAEA-C358-9A89-C92B3121EB88" name="PoreskeStope_Prodaja_FK">
-<createdBy>bojan</createdBy>
-<createdTime>2024-12-02 17:28:53 UTC</createdTime>
-<ownerDesignName>Projekat</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="D43EB8D8-0C5C-4D22-052F-728106D14096"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="7BE6594D-B448-92D0-DD29-C4A9A8C71485" name="PoreskeStope_Servis_FK">
-<createdBy>bojan</createdBy>
-<createdTime>2024-12-02 17:29:00 UTC</createdTime>
-<ownerDesignName>Projekat</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="D43EB8D8-0C5C-4D22-052F-728106D14096"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

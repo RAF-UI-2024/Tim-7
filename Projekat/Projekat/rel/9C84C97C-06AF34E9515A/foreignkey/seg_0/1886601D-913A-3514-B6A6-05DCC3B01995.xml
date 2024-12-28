@@ -8,7 +8,7 @@
 <referredTableID>2C95DE85-5670-3B43-CCE0-BFCA67DE0744</referredTableID>
 <keyObject>189C89A8-0B35-EF86-1429-5065B346A910</keyObject>
 <referredKeyID>189C89A8-0B35-EF86-1429-5065B346A910</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>ID_Rezervacije</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
